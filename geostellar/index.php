@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Stellarsolve</title>
+        <title>Stellarsolve Energy</title>
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch.css">
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch-sections.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
 
@@ -24,7 +25,7 @@
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--
@@ -96,15 +97,19 @@
                             </ul>
                         </div>
                     </nav>
+                    <!--
                     <a class="cs-call" href="tel:555-555-0234">
                         <picture class="cs-wrapper">
                             <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
                         </picture>
+                        
                         <div class="cs-info">
                             <span class="cs-header">Call Us</span>
                             <span class="cs-link-content">(604) 555-0234</span>
                         </div>
+
                     </a>
+                    -->
                 </div>
             </div>
         </header>
@@ -139,10 +144,10 @@
                     </g>
                 </svg>
             </span>
-            <h1 class="cs-title">Elevate Your Performance With Our Leading-Edge Consulting Solutions</h1>
-            <a href="" class="cs-button-solid">Request Appointment</a>
+            <h1 class="cs-title">Propelling Profitable Sustainability in Sub-Saharan Africa</h1>
+            <a href="./contact.php" class="cs-button-solid">Request Appointment</a>
         </div>
-        <ul class="cs-card-group">
+        <ul class="cs-card-group mb-5">
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check-circle.svg" alt="icon" width="48" height="48">
                 <h3 class="cs-h3">100% Success Rate</h3>
@@ -177,6 +182,31 @@
                                         
 
 <!-- ============================================ -->
+<!--                  Content                     -->
+<!-- ============================================ -->
+
+<section id="content-1638">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">Where expertise, innovation, and sustainability converge.</h2>
+            </div>
+            <div class="cs-flex">
+                <h3 class="cs-h3">
+                    Propelling Profitable Sustainability in Sub-Saharan Africa
+                </h3>
+                <p class="cs-text">
+                    Welcome to Stellarsolve Energy, the Vanguard of Sustainable Energy Transformation in Sub-Saharan Africa. We are trailblazers, dedicated to pioneering cutting-edge technologies that drive national and indigenous oil companies toward accelerated production of low carbon oil and gas reserves. Our commitment goes beyond production; we envision a future where no reserves are stranded. As we evolve, our goal is to set the gold standard in oil and gas asset management, showcasing state-of-the-art methods aligned with net-zero goals. 
+                </p>
+                <a href="./about.php" class="cs-button-solid">Learn More</a>
+            </div>
+        </div>  
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
 <!--                  Footer                      -->
 <!-- ============================================ -->
 
@@ -209,6 +239,7 @@
         </div>
         <div class="cs-bottom">
             <!--Social-->
+            <!-- 
             <ul class="cs-social">
                 <li class="cs-social-li">
                     <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
@@ -231,14 +262,17 @@
                     </a>
                 </li>
             </ul>
+-->
             <span class="cs-copyright">
-                © Copyright 2024 - <a href="" class="cs-copyright-link">Stellarsolve</a>
+                Copyright &copy; 2024 <a href="./" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
+            <!--
             <div class="cs-flex">
                 <a href="" class="cs-copyright-link">Privacy Policy</a>
                 <span class="cs-separater">|</span>
                 <a href="" class="cs-copyright-link">Terms of Use</a>
             </div>
+-->
         </div>
     </div>
 </section>

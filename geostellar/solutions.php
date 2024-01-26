@@ -3,6 +3,7 @@
         <title>Geostellar</title>
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch.css">
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch-sections.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
 
@@ -165,7 +166,7 @@
                 </li>
             </ul>
             <span class="cs-copyright">
-                © Copyright 2024 - <a href="" class="cs-copyright-link">Stellarsolve</a>
+                Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
             <div class="cs-flex">
                 <a href="" class="cs-copyright-link">Privacy Policy</a>

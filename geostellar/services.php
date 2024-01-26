@@ -3,6 +3,7 @@
         <title>Geostellar</title>
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch.css">
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch-sections.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
 
@@ -115,12 +116,12 @@
 
         <script>
             const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
-                for (const item of faqItems) {
+            for (const item of faqItems) {
                     const onClick = () => {
                     item.classList.toggle('active')
                 }
                 item.addEventListener('click', onClick)
-                }
+            }
         </script>
 
 <!-- ============================================ -->
@@ -144,7 +145,7 @@
             <span class="cs-topper">Our Courses</span>
             <h2 class="cs-title">Stitch Center for Process Safety Training</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum accusantium fuga dolore nulla provident inventore possimus, incidunt, tenetur voluptate laudantium consequuntur commodi. In perferendis quod, non ad veniam similique assumenda deleniti nobis quaerat ipsum cum! Velit provident eligendi cumque excepturi!
+            At Stellarsolve Energy, our services are your gateway to sustainable energy transformation. We provide comprehensive support for national and indigenous oil companies, ensuring a smooth transition from technology adoption to asset management. Our services are tailored to evolve with your needs, from supporting current operations to preparing for the future.
             </p>
             <ul class="cs-faq-group">
                 <li class="cs-faq-item active">
@@ -196,7 +197,11 @@
                     </p>
                 </li>
             </ul>
-            <a href="" class="cs-button-solid">View All Courses</a>
+            <p class="cs-text mt-4">
+            Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.  
+            </p>
+        
+            <a href="./contact.php" class="cs-button-solid">Contact Us</a>
         </div>
     </div>
 </section>
@@ -258,7 +263,7 @@
                 </li>
             </ul>
             <span class="cs-copyright">
-                © Copyright 2024 - <a href="" class="cs-copyright-link">Stellarsolve</a>
+                Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
             <div class="cs-flex">
                 <a href="" class="cs-copyright-link">Privacy Policy</a>
