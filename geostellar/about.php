@@ -112,18 +112,18 @@
             <!--Top left image-->
             <picture class="cs-picture cs-picture1">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                <source media="(max-width: 600px)" srcset="./custom/image/blue-waves.jpeg">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg" alt="mechanic" width="413" height="500">
+                <source media="(min-width: 601px)" srcset="./custom/image/blue-waves.jpeg">
+                <img loading="lazy" decoding="async" src="./custom/image/blue-waves.jpeg" alt="mechanic" width="413" height="500">
             </picture>
             <!--Top Right image-->
             <picture class="cs-picture cs-picture2">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg" alt="mechanic" width="413" height="280">
+                <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
+                <img loading="lazy" decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="mechanic" width="413" height="280">
             </picture>
         </div>
         <div class="cs-content">

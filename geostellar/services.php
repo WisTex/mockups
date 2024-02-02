@@ -178,14 +178,14 @@
                 <div class="cs-picture-wrapper">
                     <picture class="cs-picture cs-picture1">
                         <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg">
+                        <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
                         <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg" alt="meeting" width="434" height="414">
+                        <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
+                        <img loading="lazy" decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="meeting" width="434" height="414">
                     </picture>
                     <div class="cs-box">
-                        <span class="cs-header">Profit Growth</span>
-                        <span class="cs-desc">Description of Picture</span>
+                        <span class="cs-header">Stellarsolve Energy</span>
+                        <span class="cs-desc">Your gateway to sustainable energy transformation.</span>
                     </div>
                 </div>
                 <picture class="cs-picture cs-picture2">
