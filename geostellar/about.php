@@ -65,7 +65,7 @@
                         <div class="cs-ul-wrapper">
                             <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                                 <li class="cs-li">
-                                    <a href="./" class="cs-li-link cs-active">
+                                    <a href="./" class="cs-li-link">
                                         Home
                                     </a>
                                 </li>
@@ -85,7 +85,7 @@
                                     </a>
                                 </li>
                                 <li class="cs-li">
-                                    <a href="./about.php" class="cs-li-link">
+                                    <a href="./about.php" class="cs-li-link cs-active">
                                         About
                                     </a>
                                 </li>
@@ -97,19 +97,101 @@
                             </ul>
                         </div>
                     </nav>
-                    <a class="cs-call" href="tel:555-555-0234">
-                        <picture class="cs-wrapper">
-                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
-                        </picture>
-                        <div class="cs-info">
-                            <span class="cs-header">Call Us</span>
-                            <span class="cs-link-content">(604) 555-0234</span>
-                        </div>
-                    </a>
+
                 </div>
             </div>
         </header>
        
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1591">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg" alt="mechanic" width="413" height="500">
+            </picture>
+            <!--Top Right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/shoes2.jpg" alt="mechanic" width="413" height="280">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">About</span>
+            <h2 class="cs-title">Stellarsolve Energy</h2>
+            <p class="cs-text">
+            Welcome to Stellarsolve Energy, the Vanguard of Sustainable Energy Transformation in Sub-Saharan Africa. We are trailblazers, dedicated to pioneering cutting-edge technologies that drive national and indigenous oil companies toward accelerated production of low carbon oil and gas reserves. Our commitment goes beyond production; we envision a future where no reserves are stranded. As we evolve, our goal is to set the gold standard in oil and gas asset management, showcasing state-of-the-art methods aligned with net-zero goals. 
+            </p>
+            <h3>Our Vision</h3>
+            <p class="cs-text">
+            To lead Sub-Saharan Africa's sustainable energy transition by bridging the technology gap, driving the accelerated production of low carbon oil and gas reserves.
+            </p>
+            <h3>Our Mission</h3>
+            <p class="cs-text">
+            Catalyze change by expediting low carbon oil and gas production, actively engaging in global sustainable energy practices, and ensuring no reserves are stranded.
+            </p>
+            <h3>Join Us</h3>
+            <p class="cs-text">
+             Welcome to the Vanguard of Sustainable Energy Transformation. Join us on this journey as we lead the regional transition to a diverse energy landscape, shaping the paradigm for establishing and optimizing a well-balanced energy mix across all sources.
+            </p>
+            <a href="" class="cs-button-solid">Make an Appointment</a>
+        </div>
+    </div>
+</section>
+                                
+
+
+<!-- ============================================ -->
+<!--                 Why Choose                   -->
+<!-- ============================================ -->
+
+<section id="why-choose-289">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">About</span>
+                <h2 class="cs-title">Why Stellarsolve</h2>
+            </div>
+            <p class="cs-text">
+            Join Stellarsolve Energy - Propelling Profitable Sustainability in Sub-Saharan Africa. Where expertise, innovation, and sustainability converge to shape a brighter, more sustainable energy future for Sub-Saharan Africa.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/award.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Expertise</h3>
+                <p class="cs-item-text">
+                    Backed by a team of seasoned professionals, we bring a wealth of knowledge and experience to the table.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/sheild-black.svg" alt="icon" width="40" height="48">
+                <h3 class="cs-h3">Innovation</h3>
+                <p class="cs-item-text">
+                    We leverage the most appropriate cutting-edge technologies to maximize the efficiency of energy production while minimizing the carbon footprint.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/call.svg" alt="icon" width="48" height="48">
+                <h3 class="cs-h3">Profitable Sustainability</h3>
+                <p class="cs-item-text">
+                    A commitment to sustainability that adds to the profitability of Sub-Saharan Africa's energy sector.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
 
         
 <!-- ============================================ -->
@@ -124,7 +206,7 @@
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
-                    <a href="./home.php" class="cs-link">Home</a>
+                    <a href="./" class="cs-link">Home</a>
                 </li>
                 <li class="cs-li">
                     <a href="./solutions.php" class="cs-link">Solutions</a>
@@ -144,37 +226,10 @@
             </ul>
         </div>
         <div class="cs-bottom">
-            <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
+
             <span class="cs-copyright">
                 Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
-            <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
-                <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
-            </div>
         </div>
     </div>
 </section>        

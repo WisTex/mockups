@@ -65,12 +65,12 @@
                         <div class="cs-ul-wrapper">
                             <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                                 <li class="cs-li">
-                                    <a href="./" class="cs-li-link cs-active">
+                                    <a href="./" class="cs-li-link">
                                         Home
                                     </a>
                                 </li>
                                 <li class="cs-li">
-                                    <a href="./solutions.php" class="cs-li-link">
+                                    <a href="./solutions.php" class="cs-li-link cs-active">
                                         Solutions
                                     </a>
                                 </li>
@@ -97,15 +97,7 @@
                             </ul>
                         </div>
                     </nav>
-                    <a class="cs-call" href="tel:555-555-0234">
-                        <picture class="cs-wrapper">
-                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
-                        </picture>
-                        <div class="cs-info">
-                            <span class="cs-header">Call Us</span>
-                            <span class="cs-link-content">(604) 555-0234</span>
-                        </div>
-                    </a>
+
                 </div>
             </div>
         </header>
@@ -119,17 +111,17 @@
     <div class="cs-container">
         <div class="cs-content">
             <div class="cs-flex">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">Marketing strategies & campaigns that will prioritize & maximize company profits.</h2>
+                <span class="cs-topper">Solutions</span>
+                <h2 class="cs-title">Sustainability that adds to the profitability of Sub-Saharan Africa's energy sector.</h2>
             </div>
             <div class="cs-flex">
                 <h3 class="cs-h3">
-                    Revolutionize tour business, exceedyour goals Partner with Smartaxdynamic consulting firm.
+                    Our solutions are your gateway to sustainable energy transformation.
                 </h3>
                 <p class="cs-text">
                 Discover holistic solutions at Stellarsolve Energy that transcend the traditional boundaries of the energy sector. Our forward-thinking approach encompasses end-to-end strategies, from selling and supporting cutting-edge technologies for accelerated production to managing oil and gas assets with excellence. Partner with us as we lead in the transition to diverse energy sources, modeling how to establish and optimize a well-balanced energy mix.
                 </p>
-                <a href="" class="cs-button-solid">Learn More</a>
+                <a href="./contact.php" class="cs-button-solid">Contact Us</a>
             </div>
         </div>  
         <picture class="cs-picture">
@@ -155,7 +147,7 @@
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
-                    <a href="./home.php" class="cs-link">Home</a>
+                    <a href="./" class="cs-link">Home</a>
                 </li>
                 <li class="cs-li">
                     <a href="./solutions.php" class="cs-link">Solutions</a>
@@ -175,37 +167,11 @@
             </ul>
         </div>
         <div class="cs-bottom">
-            <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
+            
             <span class="cs-copyright">
                 Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
-            <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
-                <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
-            </div>
+            
         </div>
     </div>
 </section>        

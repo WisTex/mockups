@@ -65,7 +65,7 @@
                         <div class="cs-ul-wrapper">
                             <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                                 <li class="cs-li">
-                                    <a href="./" class="cs-li-link cs-active">
+                                    <a href="./" class="cs-li-link">
                                         Home
                                     </a>
                                 </li>
@@ -80,7 +80,7 @@
                                     </a>
                                 </li>
                                 <li class="cs-li">
-                                    <a href="./services.php" class="cs-li-link">
+                                    <a href="./services.php" class="cs-li-link cs-active">
                                         Services
                                     </a>
                                 </li>
@@ -214,7 +214,7 @@
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
-                    <a href="./home.php" class="cs-link">Home</a>
+                    <a href="./" class="cs-link">Home</a>
                 </li>
                 <li class="cs-li">
                     <a href="./solutions.php" class="cs-link">Solutions</a>

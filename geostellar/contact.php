@@ -65,7 +65,7 @@
                         <div class="cs-ul-wrapper">
                             <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                                 <li class="cs-li">
-                                    <a href="./" class="cs-li-link cs-active">
+                                    <a href="./" class="cs-li-link">
                                         Home
                                     </a>
                                 </li>
@@ -90,7 +90,7 @@
                                     </a>
                                 </li>
                                 <li class="cs-li">
-                                    <a href="./contact.php" class="cs-li-link">
+                                    <a href="./contact.php" class="cs-li-link cs-active">
                                         Contact Us
                                     </a>
                                 </li>
@@ -157,7 +157,7 @@
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Languages</span>
-                        Our staff can communicate with you in English, French, and Portuguese. 
+                        English, French, and Portuguese. 
                     </div>
                 </li>
             </ul>
