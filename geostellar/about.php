@@ -16,7 +16,7 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="" class="cs-logo" aria-label="back to home">
-                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/invest-logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
@@ -120,7 +120,7 @@
     <div class="cs-container">
         <div class="cs-top">
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">

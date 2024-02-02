@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Geostellar</title>
+        <title>Paradise AI Workbench - Geostellar Energy</title>
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch.css">
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch-sections.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -16,7 +16,7 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="" class="cs-logo" aria-label="back to home">
-                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/invest-logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
@@ -97,97 +97,133 @@
                             </ul>
                         </div>
                     </nav>
-                    <a class="cs-call" href="tel:555-555-0234">
-                        <picture class="cs-wrapper">
-                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
-                        </picture>
-                        <div class="cs-info">
-                            <span class="cs-header">Call Us</span>
-                            <span class="cs-link-content">(604) 555-0234</span>
-                        </div>
-                    </a>
+
+                    
                 </div>
             </div>
         </header>
        
         
+                                
 <!-- ============================================ -->
-<!--                  Services                    -->
+<!--                   Video                      -->
 <!-- ============================================ -->
 
-<section id="services-1626">
+<section id="video-1683">
     <div class="cs-container">
+
         <div class="cs-content">
-            <div class="cs-flex">
-                <span class="cs-topper">Our services</span>
-                <h2 class="cs-title">Grow Your Business with Our New Bold Agency</h2>
-            </div>
-            <p class="cs-text">
-                Aqestic recusandae laudantium optio amet a quisquam saepe aliquid, voluptate praesentium dicta fuga dolor error perspiciatis voluptatem eum cupiditate totam reiciendis quam minus inventore sint rem impedit esse quasi Tenetur sed reprehenderit earum a magni aliquid blanditiis dolores, veritatis soluta autem beatae officia expedita ipsum rerum doloribus sit provident delectus.
-            </p>
-        </div>                  
+            <span class="cs-topper">Software</span>
+            <h2 class="cs-title">Paradise</h2>
+            <h3 class="">The AI Workbench - Your Destination for Machine Learning</h3>
+        </div>
+
+        <video width="100%" height="auto" controls>
+            <source src="./custom/video/paradise-3-5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="cs-content mb-0">
+            <p>Explore Stellarsolve Energy's  aggregates, reviews, sells and support revolutionary technologies designed to propel national and indigenous oil companies into a sustainable future. Cutting-edge products offered are meticulously selected, tested and compared to other similar technology. Our  to support and optimize oil and gas production, laying the foundation for a seamless transition to low carbon practices.</p>
+            <p>Stellarsolve has exclusive rights to resell Paradise in Sub Saharan Africa.</p>
+        </div>
+
+        <h3>Paradise, the cutting-edge machine learning seismic interpretation tool!</h3>
+
+        <ul class="mt-0">
+                <li>Paradise was developed by Geophysical Insights in Houston</li>
+                <li>Revolutionize Seismic Interpretation.</li>
+                <li>Accessible to All Geoscientists.</li>
+                <li>Guided ThoughtFlows® for precision.</li>
+                <li>Proven to have helped resolved complex subsurface challenges in diverse depositional environments and geologic basins.</li>
+                <li>Leverage Unique 'Self-Organizing Map' volumes to plan and monitor wells</li>
+        </ul>
+
+
+
+
+
+
+
+        <!--
         <ul class="cs-card-group">
             <li class="cs-item">
+                <h3 class="cs-h3">Attribute Generation</h3>
+                <p class="cs-item-text">
+                    
+                </p>
                 <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg" alt="room" width="413" height="420">
-                    </picture>
-                    <h3 class="cs-h3">Process Safety & Risk Management</h3>
-                    <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
-                    </p>
-                    <span class="cs-fake-link">
-                        Get Started
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-                    </span>
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
                 </a>
             </li>
             <li class="cs-item">
+                <h3 class="cs-h3">Occupational Safety & Health</h3>
+                <p class="cs-item-text">
+                    We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                </p>
                 <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg" alt="room" width="413" height="420">
-                    </picture>
-                    <h3 class="cs-h3">Occupational Safety & Health</h3>
-                    <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
-                    </p>
-                    <span class="cs-fake-link">
-                        Get Started
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-                    </span>
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
                 </a>
             </li>
             <li class="cs-item">
+                <h3 class="cs-h3">Security Assessment and Planning</h3>
+                <p class="cs-item-text">
+                    We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                </p>
                 <a href="" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg">
-                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg" alt="room" width="413" height="420">
-                    </picture>
-                    <h3 class="cs-h3">Security Assessment and Planning</h3>
-                    <p class="cs-item-text">
-                        We provide some of the finest quality, most reliable, and cost effective services and solutions.
-                    </p>
-                    <span class="cs-fake-link">
-                        Get Started
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-                    </span>
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Process Safety & Risk Management</h3>
+                <p class="cs-item-text">
+                    We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                </p>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Occupational Safety & Health</h3>
+                <p class="cs-item-text">
+                    We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                </p>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Security Assessment and Planning</h3>
+                <p class="cs-item-text">
+                    We provide some of the finest quality, most reliable, and cost effective services and solutions.
+                </p>
+                <a href="" class="cs-link">
+                    <span class="cs-link-text">Get Started</span>
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/enterprise-arrow-right.svg"
+                            alt="icon" width="20" height="20" aria-hidden="true" />
                 </a>
             </li>
         </ul>
+-->
     </div>
 </section>
-                                
+                                                         
 
 <!-- ============================================ -->
 <!--                  Footer                      -->
@@ -197,7 +233,7 @@
     <div class="cs-container">
         <div class="cs-top">
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -221,37 +257,11 @@
             </ul>
         </div>
         <div class="cs-bottom">
-            <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
+
             <span class="cs-copyright">
                 Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
-            <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
-                <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
-            </div>
+
         </div>
     </div>
 </section>

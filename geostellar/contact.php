@@ -16,7 +16,7 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="./" class="cs-logo" aria-label="back to home">
-                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/invest-logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
@@ -25,7 +25,7 @@
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--
@@ -97,15 +97,7 @@
                             </ul>
                         </div>
                     </nav>
-                    <a class="cs-call" href="tel:555-555-0234">
-                        <picture class="cs-wrapper">
-                            <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
-                        </picture>
-                        <div class="cs-info">
-                            <span class="cs-header">Call Us</span>
-                            <span class="cs-link-content">(604) 555-0234</span>
-                        </div>
-                    </a>
+
                 </div>
             </div>
         </header>
@@ -123,9 +115,10 @@
             <span class="cs-topper">Contact Us</span>
             <h2 class="cs-title">Get in Touch</h2>
             <p class="cs-text">
-                We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+                Ready to embark on the journey towards sustainable energy transformation? Contact Stellarsolve Energy through our user-friendly portal. Our dedicated team is here to discuss how our cutting-edge technologies, services, and solutions can align with your current and future goals. Let's collaborate to shape a well-balanced energy mix that stands as a testament to your commitment to sustainability.
             </p>
             <ul class="cs-ul">
+                <!--
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
@@ -137,15 +130,17 @@
                         </a>
                     </div>
                 </li>
+-->
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">Email</span>
-                        <a href="mailto:Email@stitch.com" class="cs-link">Email@stitch.com</a>
+                        <a href="mailto:info@stellarsolveenergy.com" class="cs-link">info@stellarsolveenergy.com</a>
                     </div>
                 </li>
+                <!--
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
@@ -153,6 +148,16 @@
                     <div class="cs-flex-group">
                         <span class="cs-header">Address</span>
                         <a href="" class="cs-link">2553 Woodbridge Lane, Boston Ware 120</a>
+                    </div>
+                </li>
+                -->
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Languages</span>
+                        Our staff can communicate with you in English, French, and Portuguese. 
                     </div>
                 </li>
             </ul>
@@ -190,7 +195,7 @@
     <div class="cs-container">
         <div class="cs-top">
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -227,36 +232,11 @@
         </div>
         <div class="cs-bottom">
             <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/face-white1.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
+
             <span class="cs-copyright">
                 Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
-            <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
-                <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
-            </div>
+
         </div>
     </div>
 </section>

@@ -16,7 +16,7 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="" class="cs-logo" aria-label="back to home">
-                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/invest-logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
@@ -97,6 +97,7 @@
                             </ul>
                         </div>
                     </nav>
+                    <!--
                     <a class="cs-call" href="tel:555-555-0234">
                         <picture class="cs-wrapper">
                             <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="icon" width="24" height="24">
@@ -106,106 +107,100 @@
                             <span class="cs-link-content">(604) 555-0234</span>
                         </div>
                     </a>
+                    -->
                 </div>
             </div>
         </header>
 
 <!-- ============================================ -->
-<!--                  Services                    -->
+<!--                Why Choose Us                 -->
 <!-- ============================================ -->
 
-        <script>
-            const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
-            for (const item of faqItems) {
-                    const onClick = () => {
-                    item.classList.toggle('active')
-                }
-                item.addEventListener('click', onClick)
-            }
-        </script>
-
-<!-- ============================================ -->
-<!--                  Services                    -->
-<!-- ============================================ -->
-
-<section id="services-1667">
+<section id="why-choose-1634">
     <div class="cs-container">
-        <div class="cs-image-group">
-            <picture class="cs-picture">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-standing.jpeg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-standing.jpeg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people-standing.jpeg" alt="people standing" width="605" height="690">
-            </picture>
-            <!--SVG Graphic-->
-            <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-swirl.svg" alt="graphic" loading="lazy" decoding="async" height="710" aria-hidden="true" width="690">
-        </div>
         <div class="cs-content">
-            <span class="cs-topper">Our Courses</span>
-            <h2 class="cs-title">Stitch Center for Process Safety Training</h2>
+            <div class="cs-flex">
+                <span class="cs-topper">Stellarsolve Energy</span>
+                <h2 class="cs-title">Services</h2>
+            </div>
             <p class="cs-text">
             At Stellarsolve Energy, our services are your gateway to sustainable energy transformation. We provide comprehensive support for national and indigenous oil companies, ensuring a smooth transition from technology adoption to asset management. Our services are tailored to evolve with your needs, from supporting current operations to preparing for the future.
+<br><br>
+            Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.
             </p>
-            <ul class="cs-faq-group">
-                <li class="cs-faq-item active">
-                    <button class="cs-button">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/computer-gold.svg" alt="icon" width="32" height="32">
-                        <span class="cs-button-text">
-                            On-Demand e-Training
-                        </span>
-                        <span class="cs-indicator" aria-hidden="true"></span>
-                    </button>
-                    <p class="cs-item-p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente placeat enim molestias quam, illum ullam ipsa repellat, necessitatibus quis cumque voluptatum nesciunt. Quia possimus est in recusandae saepe nostrum.
-                    </p>
+            
+        </div>  
+        <div class="cs-wrapper">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chat-gold.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Service 1</h3>
+                        <p class="cs-item-text">
+                            We need a description of service number one.
+                        </p>
+                    </div>
                 </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/calendar-gold.svg" alt="icon" width="32" height="32">
-                        <span class="cs-button-text">
-                            Hybrid e-Training
-                        </span>
-                        <span class="cs-indicator" aria-hidden="true"></span>
-                    </button>
-                    <p class="cs-item-p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente placeat enim molestias quam, illum ullam ipsa repellat, necessitatibus quis cumque voluptatum nesciunt. Quia possimus est in recusandae saepe nostrum.
-                    </p>
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/call-gold.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Service 2</h3>
+                        <p class="cs-item-text">
+                            We need a description of service number two.
+                        </p>
+                    </div>
                 </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/map-pin-gold.svg" alt="icon" width="32" height="32">
-                        <span class="cs-button-text">
-                            Live Instructor e-Training
-                        </span>
-                        <span class="cs-indicator" aria-hidden="true"></span>
-                    </button>
-                    <p class="cs-item-p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente placeat enim molestias quam, illum ullam ipsa repellat, necessitatibus quis cumque voluptatum nesciunt. Quia possimus est in recusandae saepe nostrum.
-                    </p>
-                </li>
-                <li class="cs-faq-item">
-                    <button class="cs-button">
-                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/map-pin-gold-2.svg" alt="icon" width="32" height="32">
-                        <span class="cs-button-text">
-                            Onsite Classroom Training
-                        </span>
-                        <span class="cs-indicator" aria-hidden="true"></span>
-                    </button>
-                    <p class="cs-item-p">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente placeat enim molestias quam, illum ullam ipsa repellat, necessitatibus quis cumque voluptatum nesciunt. Quia possimus est in recusandae saepe nostrum.
-                    </p>
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/money-gold.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Service 3</h3>
+                        <p class="cs-item-text">
+                            We need a description of service number three.
+                        </p>
+                    </div>
                 </li>
             </ul>
-            <p class="cs-text mt-4">
-            Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.  
-            </p>
-        
-            <a href="./contact.php" class="cs-button-solid">Contact Us</a>
+            <div class="cs-image-group">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture cs-picture1">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting9.jpg" alt="meeting" width="434" height="414">
+                    </picture>
+                    <div class="cs-box">
+                        <span class="cs-header">Profit Growth</span>
+                        <span class="cs-desc">Description of Picture</span>
+                    </div>
+                </div>
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg" alt="on computer" width="197" height="197">
+                </picture>
+            </div>
         </div>
     </div>
 </section>
-                                
+          
+
 
 <!-- ============================================ -->
 <!--                  Footer                      -->
@@ -215,7 +210,7 @@
     <div class="cs-container">
         <div class="cs-top">
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -239,37 +234,11 @@
             </ul>
         </div>
         <div class="cs-bottom">
-            <!--Social-->
-            <ul class="cs-social">
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-                <li class="cs-social-li">
-                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
-                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
-                    </a>
-                </li>
-            </ul>
+
             <span class="cs-copyright">
                 Copyright &copy; 2024 <a href="" class="cs-copyright-link">Stellarsolve Energy Nigeria Limited</a>
             </span>
-            <div class="cs-flex">
-                <a href="" class="cs-copyright-link">Privacy Policy</a>
-                <span class="cs-separater">|</span>
-                <a href="" class="cs-copyright-link">Terms of Use</a>
-            </div>
+
         </div>
     </div>
 </section>

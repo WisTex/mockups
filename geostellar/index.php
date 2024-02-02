@@ -16,7 +16,7 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="" class="cs-logo" aria-label="back to home">
-                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/invest-logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
@@ -122,6 +122,7 @@
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">
+                <!--
                 <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.7">
                     <path d="M0.621948 7.49889L6.40262 15L10.343 15L4.56231 7.49889L10.343 -4.2492e-07L6.40262 -2.52681e-07L0.621948 7.49889Z" fill="var(--chevronColor)"/>
@@ -132,7 +133,9 @@
                     <path d="M38.7789 7.49889L44.5596 15L48.5 15L42.7193 7.49889L48.5 -4.2492e-07L44.5596 -2.52681e-07L38.7789 7.49889Z" fill="var(--chevronColor)"/>
                     </g>
                 </svg>
+                -->
                 Plan for A secure future
+                <!--
                 <svg class="cs-chevron" width="49" height="15" viewBox="0 0 49 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.7">
                     <path d="M48.3781 7.49889L42.5974 15L38.657 15L44.4377 7.49889L38.657 -4.2492e-07L42.5974 -2.52681e-07L48.3781 7.49889Z" fill="var(--chevronColor)"/>
@@ -143,6 +146,7 @@
                     <path d="M10.2211 7.49889L4.4404 15L0.500041 15L6.28071 7.49889L0.500042 -4.2492e-07L4.4404 -2.52681e-07L10.2211 7.49889Z" fill="var(--chevronColor)"/>
                     </g>
                 </svg>
+                -->
             </span>
             <h1 class="cs-title">Propelling Profitable Sustainability in Sub-Saharan Africa</h1>
             <a href="./contact.php" class="cs-button-solid">Request Appointment</a>
@@ -150,23 +154,23 @@
         <ul class="cs-card-group mb-5">
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check-circle.svg" alt="icon" width="48" height="48">
-                <h3 class="cs-h3">100% Success Rate</h3>
+                <h3 class="cs-h3">Expertise</h3>
                 <p class="cs-item-text">
-                    We provide some of the finest quality, most responsive and reliable, and cost effective services and solutions.
+                    Backed by a team of seasoned professionals, we bring a wealth of knowledge and experience to the table.
                 </p>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/speedometer.svg" alt="icon" width="48" height="48">
-                <h3 class="cs-h3">Expert Legal Services</h3>
+                <h3 class="cs-h3">Innovation</h3>
                 <p class="cs-item-text">
-                    We provide some of the finest quality, most responsive and reliable, and cost effective services and solutions.
+                    We leverage the most appropriate cutting-edge technologies to maximize the efficiency of energy production while minimizing the carbon footprint.
                 </p>
             </li>
             <li class="cs-item">
                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Like.svg" alt="icon" width="48" height="48">
-                <h3 class="cs-h3">Highly Recommend</h3>
+                <h3 class="cs-h3">Profitable Sustainability</h3>
                 <p class="cs-item-text">
-                    We provide some of the finest quality, most responsive and reliable, and cost effective services and solutions.
+                    A commitment to sustainability that adds to the profitability of Sub-Saharan Africa's energy sector.
                 </p>
             </li>
         </ul>
@@ -213,9 +217,11 @@
 <section id="footer-1390">
     <div class="cs-container">
         <div class="cs-top">
+            
             <a aria-label="go back to home" class="cs-logo" href="">
-                <img class="cs-logo-img" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/agency-logo.svg" alt="logo" width="209" height="40">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
+
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="./home.php" class="cs-link">Home</a>
