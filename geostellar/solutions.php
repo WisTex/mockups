@@ -110,6 +110,39 @@
             </div>
         </header>
 
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1636">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">Marketing strategies & campaigns that will prioritize & maximize company profits.</h2>
+            </div>
+            <div class="cs-flex">
+                <h3 class="cs-h3">
+                    Revolutionize tour business, exceedyour goals Partner with Smartaxdynamic consulting firm.
+                </h3>
+                <p class="cs-text">
+                Discover holistic solutions at Stellarsolve Energy that transcend the traditional boundaries of the energy sector. Our forward-thinking approach encompasses end-to-end strategies, from selling and supporting cutting-edge technologies for accelerated production to managing oil and gas assets with excellence. Partner with us as we lead in the transition to diverse energy sources, modeling how to establish and optimize a well-balanced energy mix.
+                </p>
+                <a href="" class="cs-button-solid">Learn More</a>
+            </div>
+        </div>  
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg" alt="meeting" width="1280" height="620">
+        </picture>
+    </div>
+</section>
+                                
+
 <!-- ============================================ -->
 <!--                  Footer                      -->
 <!-- ============================================ -->
