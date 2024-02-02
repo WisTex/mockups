@@ -148,7 +148,7 @@
                 </svg>
                 -->
             </span>
-            <h1 class="cs-title">Propelling Profitable Sustainability in Sub-Saharan Africa</h1>
+            <h1 class="cs-title">Propelling Profitable Sustainability of the Energy Industry in Sub-Saharan Africa</h1>
             <a href="./contact.php" class="cs-button-solid">Request Appointment</a>
         </div>
         <ul class="cs-card-group mb-5">
@@ -198,7 +198,7 @@
             </div>
             <div class="cs-flex">
                 <h3 class="cs-h3">
-                    Propelling Profitable Sustainability of the Energey Industry in Sub-Saharan Africa
+                    Propelling Profitable Sustainability of the Energy Industry in Sub-Saharan Africa
                 </h3>
                 <p class="cs-text">
                     Welcome to Stellarsolve Energy, the Vanguard of Sustainable Energy Transformation in Sub-Saharan Africa. We are trailblazers, dedicated to pioneering cutting-edge technologies that drive national and indigenous oil companies toward accelerated production of low carbon oil and gas reserves. Our commitment goes beyond production; we envision a future where no reserves are stranded. As we evolve, our goal is to set the gold standard in oil and gas asset management, showcasing state-of-the-art methods aligned with net-zero goals. 
