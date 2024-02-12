@@ -574,8 +574,8 @@
         display: none;
     }
     #cs-navigation .cs-logo {
-        width: 18.4%;
-        max-width: 12.3125rem;
+        /* width: 18.4%; */
+        /* max-width: 12.3125rem; */
         height: 3.75rem;
         /* margin-right auto pushes everything away from it to the right */
         margin: 0 auto 0 0;
@@ -1394,7 +1394,7 @@
     }
     #footer-1392 .cs-logo {
         width: 100%;
-        max-width: 13.0625rem;
+        max-width: 300px;
         height: auto;
         display: block;
     }
