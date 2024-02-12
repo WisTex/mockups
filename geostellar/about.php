@@ -16,7 +16,8 @@
                 <div class="cs-top-container">
                     <!--Nav Logo-->
                     <a href="" class="cs-logo" aria-label="back to home">
-                        <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                        <!-- <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async"> -->
+                        <img src="./custom/image/stellarsolve-long.png" alt="logo" !width="197" !height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
                         <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
