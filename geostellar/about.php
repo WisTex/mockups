@@ -19,13 +19,13 @@
                         <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
-                        <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
+                        <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
                             <picture class="cs-wrapper">
                                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--
@@ -101,53 +101,64 @@
                 </div>
             </div>
         </header>
-       
+
+        
 <!-- ============================================ -->
-<!--                Side By Side                  -->
+<!--                 Content Page                 -->
 <!-- ============================================ -->
 
-<section id="sbs-1591">
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
+
+<section id="content-page-852">
     <div class="cs-container">
+        <div class="cs-content">
+            <!--
+            <h1 class="cs-title"><span class="cs-color">Services</span></h1>
+            -->
+
+            <span class="cs-topper">About</span>
+            <h1 class="cs-title"><span class="cs-color">Stellarsolve Energy</span></h1>
+            <p class="cs-text">
+            Welcome to Stellarsolve Energy, the Vanguard of Sustainable Energy Transformation in Sub-Saharan Africa. We are trailblazers, dedicated to pioneering cutting-edge technologies that drive national and indigenous oil companies toward accelerated production of low carbon oil and gas reserves. Our commitment goes beyond production; we envision a future where no reserves are stranded. As we evolve, our goal is to set the gold standard in oil and gas asset management, showcasing state-of-the-art methods aligned with net-zero goals. 
+            </p>
+            <h2>Our Vision</h2>
+            <p class="cs-text">
+            To lead Sub-Saharan Africa's sustainable energy transition by bridging the technology gap, driving the accelerated production of low carbon oil and gas reserves.
+            </p>
+            <h2>Our Mission</h2>
+            <p class="cs-text">
+            Catalyze change by expediting low carbon oil and gas production, actively engaging in global sustainable energy practices, and ensuring no reserves are stranded.
+            </p>
+            <h2>Join Us</h2>
+            <p class="cs-text">
+             Welcome to the Vanguard of Sustainable Energy Transformation. Join us on this journey as we lead the regional transition to a diverse energy landscape, shaping the paradigm for establishing and optimizing a well-balanced energy mix across all sources.
+            </p>
+            <!-- <a href="" class="cs-button-solid">Make an Appointment</a>            -->
+
+        </div>
+
         <div class="cs-image-group">
-            <!--Top left image-->
-            <picture class="cs-picture cs-picture1">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="./custom/image/blue-waves.jpeg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="./custom/image/blue-waves.jpeg">
-                <img loading="lazy" decoding="async" src="./custom/image/blue-waves.jpeg" alt="mechanic" width="413" height="500">
-            </picture>
-            <!--Top Right image-->
-            <picture class="cs-picture cs-picture2">
+            <picture class="cs-picture">
                 <!--Mobile Image-->
                 <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
                 <!--Tablet and above Image-->
                 <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
-                <img loading="lazy" decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="mechanic" width="413" height="280">
+                <img decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="person" width="542" height="520" aria-hidden="true">
             </picture>
         </div>
-        <div class="cs-content">
-            <span class="cs-topper">About</span>
-            <h2 class="cs-title">Stellarsolve Energy</h2>
-            <p class="cs-text">
-            Welcome to Stellarsolve Energy, the Vanguard of Sustainable Energy Transformation in Sub-Saharan Africa. We are trailblazers, dedicated to pioneering cutting-edge technologies that drive national and indigenous oil companies toward accelerated production of low carbon oil and gas reserves. Our commitment goes beyond production; we envision a future where no reserves are stranded. As we evolve, our goal is to set the gold standard in oil and gas asset management, showcasing state-of-the-art methods aligned with net-zero goals. 
-            </p>
-            <h3>Our Vision</h3>
-            <p class="cs-text">
-            To lead Sub-Saharan Africa's sustainable energy transition by bridging the technology gap, driving the accelerated production of low carbon oil and gas reserves.
-            </p>
-            <h3>Our Mission</h3>
-            <p class="cs-text">
-            Catalyze change by expediting low carbon oil and gas production, actively engaging in global sustainable energy practices, and ensuring no reserves are stranded.
-            </p>
-            <h3>Join Us</h3>
-            <p class="cs-text">
-             Welcome to the Vanguard of Sustainable Energy Transformation. Join us on this journey as we lead the regional transition to a diverse energy landscape, shaping the paradigm for establishing and optimizing a well-balanced energy mix across all sources.
-            </p>
-            <a href="" class="cs-button-solid">Make an Appointment</a>
-        </div>
+
     </div>
 </section>
+
+
                                 
 
 
@@ -201,9 +212,11 @@
 <section id="footer-1390">
     <div class="cs-container">
         <div class="cs-top">
+            <!--
             <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
+-->
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="./" class="cs-link">Home</a>

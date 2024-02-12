@@ -19,7 +19,7 @@
                         <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
-                        <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
+                        <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
                             <picture class="cs-wrapper">
                                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                             </picture>
@@ -194,9 +194,11 @@
 <section id="footer-1392">
     <div class="cs-container">
         <div class="cs-top">
+            <!--
             <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
+-->
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="./" class="cs-link cs-active">

@@ -19,13 +19,13 @@
                         <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
-                        <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
+                        <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
                             <picture class="cs-wrapper">
                                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--

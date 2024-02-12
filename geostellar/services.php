@@ -19,13 +19,13 @@
                         <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
-                        <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
+                        <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
                             <picture class="cs-wrapper">
                                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--
@@ -112,93 +112,136 @@
             </div>
         </header>
 
+
 <!-- ============================================ -->
-<!--                Why Choose Us                 -->
+<!--                 Content Page                 -->
 <!-- ============================================ -->
 
-<section id="why-choose-1634">
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
+
+<section id="content-page-852">
     <div class="cs-container">
         <div class="cs-content">
-            <div class="cs-flex">
-                <span class="cs-topper">Stellarsolve Energy</span>
-                <h2 class="cs-title">Services</h2>
-            </div>
-            <p class="cs-text">
-            At Stellarsolve Energy, our services are your gateway to sustainable energy transformation. We provide comprehensive support for national and indigenous oil companies, ensuring a smooth transition from technology adoption to asset management. Our services are tailored to evolve with your needs, from supporting current operations to preparing for the future.
-<br><br>
-            Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.
+            <h1 class="cs-title"><span class="cs-color">Services</span></h1>
+
+            <p class="">
+                At Stellarsolve Energy, our services are your gateway to sustainable energy transformation. We provide comprehensive support for national and indigenous oil companies, ensuring a smooth transition from technology adoption to asset management. Our services are tailored to evolve with your needs, from supporting current operations to preparing for the future.
             </p>
+
+            <h2>Marketing and Promotion</h2>
+
+            <p>Collaborate with the marketing team to promote the company's technology solutions through various channels, including digital platforms, industry publications, and events.</p>
             
-        </div>  
-        <div class="cs-wrapper">
-            <ul class="cs-card-group">
-                <li class="cs-item">
-                    <picture class="cs-icon-wrapper">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chat-gold.svg"
-                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Service 1</h3>
-                        <p class="cs-item-text">
-                            We need a description of service number one.
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-icon-wrapper">
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/call-gold.svg"
-                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Service 2</h3>
-                        <p class="cs-item-text">
-                            We need a description of service number two.
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-item">
-                    <picture class="cs-icon-wrapper">
-                        <img class="cs-icon"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/money-gold.svg"
-                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
-                    </picture>
-                    <!-- Text Grouped For Flexbox-->
-                    <div class="cs-text-group">
-                        <h3 class="cs-h3">Service 3</h3>
-                        <p class="cs-item-text">
-                            We need a description of service number three.
-                        </p>
-                    </div>
-                </li>
+            <h3>Product Presentation and Demonstrations</h3>
+                    <p>Present and demonstrate the company's technology products, highlighting their features, capabilities, and benefits to potential clients.</p>
+                
+            <h3>Proposal and Contract Negotiation</h3>
+                    <p>Prepare and present proposals outlining recommended solutions, pricing, and contract terms. Negotiate contracts with clients to ensure mutually beneficial agreements.
+
+
+
+            <h2>Customized Solution Development</h2>
+
+<p>Work collaboratively with clients to develop customized solutions that address their unique requirements and challenges using the company's technology offerings.</p>
+<h3>Client Needs Assessment</h3>
+<p>Engage with clients to understand their specific needs, challenges, and business objectives related to oil and gas technology solutions.</p>
+
+
+            <h2>After-Sales Support</h2>
+
+            <p>Offer ongoing support and maintenance services to clients, addressing any issues or concerns that may arise post-implementation.</p>
+            <p>Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.</p>
+
+
+            <h2>Training and Knowledge Transfer</h2>
+
+            <p>Conduct training sessions for clients on the proper use and maintenance of the technology products. Facilitate knowledge transfer to client teams.</p>
+
+            <h2>Feedback Collection and Reporting</h2>
+
+            <p>Gather feedback from clients and stakeholders and compile comprehensive reports for internal teams, contributing to product improvement and strategic decision-making.</p>
+
+            <h3>Regular Client Engagement</h3>
+
+            <p>Maintain regular communication with clients to build and strengthen relationships, gather feedback, and stay informed about evolving needs.</p>
+
+            <h3>Performance Monitoring and Optimization</h3>
+            <p>Implement tools and processes for monitoring the performance of the technology solutions and recommend optimization strategies to enhance efficiency.</p>
+            <h3>Risk Management</h3>
+            <p>Assess and manage risks associated with technology implementations, ensuring that clients are aware of potential challenges and mitigation strategies.</p>
+
+
+
+            <h2>Market Analysis and Intelligence</h2>
+
+            <p>Conduct market research and analysis to identify trends, opportunities, and potential challenges in the oil and gas industry within the designated region.</p>
+		    <h3>Regulatory Compliance Guidance</h3>
+            <p>Provide guidance on regulatory compliance related to the implementation and use of oil and gas technology solutions in the region.</p>
+
+
+            <h2>Industry Networking</h2>
+
+<p>Actively participate in industry events, conferences, and forums to expand the company's network, build relationships, and stay updated on industry trends.</p>
+
+            <h2>Project Management Support</h2>
+
+            <p>Provide project management support during the implementation of technology solutions, ensuring seamless integration and client satisfaction.</p>
+	        <h3>Collaboration with Internal Teams</h3>
+            <p>Work closely with internal teams such as R&D, marketing, and customer support to align strategies, address client needs, and contribute to the overall success of the company.</p>
+
+
+<!--
+            <p>
+                Stellarsolve Energy, Partners with "Degeconek in Nigeria to provide to provide after sale service in the Sub Saharan region.
+            </p>
+
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4-6</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum adipisci, ipsum commodi, cupiditate, sequi quos enim! Quaerat esse non sunt! Lorem ipsum dolor sit amet <a href="">link example</a>. Est, quis!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laboriosam eum quae in temporibus cumque tempora expedita mollitia nostrum <strong>adipisci, ipsum commodi</strong>, cupiditate, sequi quos enim! 
+            </p>
+            <h3>Heading 3</h3>
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ol>
+            <h4>Heading 4-6</h4>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
-            <div class="cs-image-group">
-                <div class="cs-picture-wrapper">
-                    <picture class="cs-picture cs-picture1">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
-                        <img loading="lazy" decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="meeting" width="434" height="414">
-                    </picture>
-                    <div class="cs-box">
-                        <span class="cs-header">Stellarsolve Energy</span>
-                        <span class="cs-desc">Your gateway to sustainable energy transformation.</span>
-                    </div>
-                </div>
-                <picture class="cs-picture cs-picture2">
-                    <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg">
-                    <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg">
-                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer.jpg" alt="on computer" width="197" height="197">
-                </picture>
-            </div>
+-->            
         </div>
+
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
+                <img decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="person" width="542" height="520" aria-hidden="true">
+            </picture>
+        </div>
+
     </div>
 </section>
+                                
+
+
           
 
 
@@ -209,9 +252,11 @@
 <section id="footer-1390">
     <div class="cs-container">
         <div class="cs-top">
+            <!--
             <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
+-->
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="./" class="cs-link">Home</a>

@@ -19,13 +19,13 @@
                         <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
                     </a>
                     <div class="cs-contact-group">
-                        <a class="cs-contact-link" href="mailto:Info@invetexfinance.com">
+                        <a class="cs-contact-link" href="mailto:info@stellarsolveenergy.com">
                             <picture class="cs-wrapper">
                                 <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                             </picture>
                             <div class="cs-info">
                                 <span class="cs-header">Send A Message</span>
-                                <span class="cs-link-content">info@example.com</span>
+                                <span class="cs-link-content">info@stellarsolveenergy.com</span>
                             </div>
                         </a>
                         <!--
@@ -126,14 +126,112 @@
         </div>  
         <picture class="cs-picture">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg">
+            <source media="(max-width: 600px)" srcset="./custom/image/solutions1.png">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg" alt="meeting" width="1280" height="620">
+            <source media="(min-width: 601px)" srcset="./custom/image/solutions1.png">
+            <img loading="lazy" decoding="async" src="./custom/image/solutions1.png" alt="meeting" width="1280" height="620">
+            <!-- https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg -->
         </picture>
     </div>
 </section>
                                 
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
+
+<section id="content-page-852">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Cutting Edge <span class="cs-color">Solutions</span></h1>
+
+            <p class="">
+            Examples of cutting edge Technology in the oil and gas industry:
+            </p>
+
+            <h2>Discovery Stage</h2>
+
+                <h3>Advanced Seismic Imaging</h3>
+                <p>High-resolution 3D seismic imaging with improved algorithms for more accurate detection of subsurface structures, reducing the number of exploratory wells needed.</p>
+                
+                <h3>Satellite and Aerial Monitoring</h3>
+                <p>Utilizing advanced satellite technology and aerial surveys for environmental monitoring and detection of surface features indicative of potential hydrocarbon deposits.</p>
+                    
+                <h3>Machine Learning and AI</h3>
+                <p>Applying artificial intelligence algorithms to seismic data interpretation for more precise identification of potential hydrocarbon reservoirs.</p>
+
+            <h2>Evaluation Stage</h2>
+
+                <h3>Emission Detection Technologies</h3>
+                <p>Implementing technologies such as drone-based sensors and infrared cameras to assess methane emissions during drilling and production.</p>
+
+                <h3>Eco-friendly Drilling Fluids</h3>
+                <p>Developing and using environmentally friendly drilling fluids to reduce the environmental impact of the drilling process.</p>
+                    
+                <h3>Green Logging Tools</h3>
+                <p>Utilizing wireline logging tools designed for reduced environmental impact during data collection.</p>
+
+            <h2>Development Stage</h2>
+
+                <h3>Advanced Reservoir Simulation</h3>
+                <p>Enhancing reservoir simulation models to optimize development plans with a focus on reducing carbon intensity.</p>
+
+                <h3>Sustainable Infrastructure Design</h3>
+                <p>Implementing eco-friendly engineering practices, including energy-efficient facilities and reduced carbon footprint in infrastructure development.</p>
+                    
+                <h3>Carbon Capture and Storage (CCS)</h3>
+                <p>Deploying CCS technologies to capture and store CO2 emissions generated during hydrocarbon production.</p>                
+
+            <h2>Production Stage</h2>
+
+                <h3>Renewable Energy Integration</h3>
+                <p>Utilizing solar or wind energy to power offshore platforms and facilities, reducing reliance on conventional power sources.</p>
+
+                <h3>Carbon-Efficient Production Techniques</h3>
+                <p>Implementing technologies such as low-emission well completions and reduced flaring to minimize greenhouse gas emissions during production.</p>
+                    
+                <h3>Enhanced Oil Recovery (EOR) with CO2</h3>
+                <p>Implementing EOR techniques using captured CO2 to enhance oil recovery while simultaneously storing carbon underground.</p>        
+
+
+            <h2>Abandonment Stage</h2>
+
+                <h3>Eco-Friendly Decommissioning Practices</h3>
+                <p>Developing and employing environmentally conscious methods for well plugging, platform removal, and site remediation.</p>
+
+                <h3>Recycling of Materials</h3>
+                <p>Implementing recycling and reuse of materials from decommissioned sites to minimize waste.</p>
+                    
+                <h3>Monitoring and Restoration Technologies</h3>
+                <p>Utilizing advanced monitoring technologies to ensure the ongoing environmental integrity of decommissioned sites.</p>        
+
+
+
+
+        </div>
+
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
+                <img decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="person" width="542" height="520" aria-hidden="true">
+            </picture>
+        </div>
+
+    </div>
+</section>
 
 <!-- ============================================ -->
 <!--                  Footer                      -->
@@ -142,9 +240,11 @@
 <section id="footer-1390">
     <div class="cs-container">
         <div class="cs-top">
+            <!--
             <a aria-label="go back to home" class="cs-logo" href="">
                 <img class="cs-logo-img" loading="lazy" decoding="async" src="./custom/image/stellarsolve-logo.png" alt="logo" width="209" height="40">
             </a>
+            -->
             <ul class="cs-ul">
                 <li class="cs-li">
                     <a href="./" class="cs-link">Home</a>
