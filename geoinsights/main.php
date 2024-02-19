@@ -30,33 +30,12 @@
                   </div>
 
                   <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm">Select Location</a>
+                    <a href="#" class="btn btn-primary btn-sm">View Map</a>
+                    <a href="#" class="btn btn-warning btn-sm">Change Location</a>
                   </div>
                 </div>
 
-                <p></p>
-
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title mb-2">Parameters <span class="card-subtitle">Select Process for Current Data Set</span></h3>
-                    
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
-
-
-                  </div>
-
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm">Applications</a>
-                    <a href="#" class="btn btn-primary btn-sm">App Builder</a>
-                  </div>                  
-                </div>
+                
 
 
                 <div class="card mb-3">
@@ -68,15 +47,41 @@
                   <div class="card-body">
                     <h3 class="card-title mb-2">Progress <!-- <span class="card-subtitle">Processing in Cloud</span> -->
                     <span class="status status-cyan pull-right">
-  <span class="status-dot status-dot-animated"></span>
-  Processing in Cloud
-</span>
-</h3>
+                      <span class="status-dot status-dot-animated"></span>
+                        Processing in Cloud
+                      </span>
+                    </h3>
                     <div class="progress progress-lg">
                       <div class="progress-bar progress-bar-indeterminate"></div>
                     </div>
                   </div>
-                </div>                
+                </div>  
+
+                <div class="card mb-3">
+                  <!-- 
+                  <div class="card-header">
+                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
+                  </div>
+                  -->
+                  <div class="card-body">
+                    <h3 class="card-title mb-2">Select Parameters <span class="card-subtitle pull-right">App: View Dataset</span></h3>
+                    
+                    <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
+                    <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
+                    <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
+                    <p class="mt-1"><small>Note: Context sensitive menu. Application runs with new parameters when selected.</small></p>
+
+                  </div>
+
+                  <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-sm">View History</a>
+                    <a href="#" class="btn btn-primary btn-sm">App Builder</a>
+                    <a href="#" class="btn btn-warning btn-sm">Change Application</a>
+                  </div>                  
+                </div>
+
+
+              
 
                 <div class="card mb-3">
                   <!--
@@ -89,7 +94,8 @@
                     <ul class="steps steps-counter steps-vertical">
                       <li class="step-item">Select Location: Gulf of Mexico</li>
                       <li class="step-item">Select Data Set: Stacked Seismic Volume</li>
-                      <li class="step-item active">Select App or Parameters</li>
+                      <li class="step-item">Select Application: View Dataset</li>
+                      <li class="step-item active">Select Parameters: Default</li>
                       <li class="step-item">View Result</li>
                     </ul>
                   </div>
@@ -107,6 +113,7 @@
                     <ul class="steps steps-counter steps-vertical">
                       <li class="step-item">Select Location: Gulf of Mexico</li>
                       <li class="step-item">Select Data Set: Stacked Seismic Volume</li>
+                      <li class="step-item">Select Application: View Dataset</li>
                       <li class="step-item">Select Parameters: Amplitude Scale Change</li>
                       <li class="step-item active">View Result</li>
                     </ul>
