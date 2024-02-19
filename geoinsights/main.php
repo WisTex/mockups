@@ -66,6 +66,7 @@
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Parameters <span class="card-subtitle pull-right">App: View Dataset</span></h3>
                     
+                    <a href="#" class="btn btn-ghost-success btn-sm">None (Defaults)</a> <br>
                     <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
                     <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
                     <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
@@ -74,6 +75,7 @@
                   </div>
 
                   <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-sm">Advanced Options</a>
                     <a href="#" class="btn btn-primary btn-sm">View History</a>
                     <a href="#" class="btn btn-primary btn-sm">App Builder</a>
                     <a href="#" class="btn btn-warning btn-sm">Change Application</a>
