@@ -24,11 +24,11 @@
                     
                     
                   </div>
-
+<!--
                   <div class="ribbon bg-green">
                   Selected
                   </div>
-
+    -->
                   <div class="card-footer">
                     <a href="#" class="btn btn-primary btn-sm">View Map</a>
                     <a href="#" class="btn btn-warning btn-sm">Change Location</a>
@@ -75,8 +75,8 @@
                   </div>
 
                   <div class="card-footer">
+                    <a href="#" class="btn btn-primary btn-sm">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm">Advanced Options</a>
-                    <a href="#" class="btn btn-primary btn-sm">App Builder</a>
                     <a href="#" class="btn btn-primary btn-sm">View History</a>
                     <a href="#" class="btn btn-warning btn-sm">Change Application</a>
                   </div>                  
