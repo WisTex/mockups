@@ -163,7 +163,7 @@
   </table>
 </div>
 <div class="card-footer">
-                    Current Selection: &ge; 50 MBEQ
+<a href="i.php" class="btn btn-success btn-sm">Select Channels &amp; Fans</a>
                   </div>
 
     </div>
@@ -189,7 +189,7 @@
                   <div class="card-footer">
                     <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
-                    <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="h.php" class="btn btn-primary btn-sm mb-1">View History</a>
                     <a href="h.php" class="btn btn-warning btn-sm mb-1">Change Model</a>
                     <a href="c.php" class="btn btn-warning btn-sm mb-1">Change Application</a>
                   </div>                  

@@ -142,7 +142,7 @@
                   <div class="card-footer">
                     <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
-                    <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">View History</a>
                     <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
                   </div>                  
 

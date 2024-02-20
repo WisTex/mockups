@@ -40,27 +40,72 @@
 
 
               <div class="card mb-3">
+              
+                  <div class="card-header">
+                    <h3 class="card-title">Fans &amp; Channels <span class="card-subtitle">MBEQ</span></h3>
+                  </div>
+              
+              
+              <div class="table-responsive">
+  <table class="table table-vcenter">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>MBEQ</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Channel 1</td>
+        <td class="text-secondary">
+          52
+        </td>
+      </tr>
+      <tr>
+        <td>Channel 2</td>
+        <td class="text-secondary">
+          2052
+        </td>
+      </tr>      
+      <tr>
+        <td>Channel 4</td>
+        <td class="text-secondary">
+          189
+        </td>
+      </tr>            
+    </tbody>
+  </table>
+</div>
+<div class="card-footer">
+  <a href="k.php" class="btn btn-primary btn-sm mb-1">Compute Geobodies</a>
+                  </div>
+
+    </div>              
+
+              <div class="card mb-3">
                   <!-- 
                   <div class="card-header">
                     <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
                   </div>
                   -->
+                  <!--
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Actions</h3>
                     
                     
-                    <a href="#" class="btn btn-primary btn-sm mb-1">Compute Geobodies</a>
+                    <a href="k.php" class="btn btn-primary btn-sm mb-1">Compute Geobodies</a>
                     
                     
                     
 
                   </div>
-
-                  <div class="card-footer">
+                  -->
+                  <div class="card-body">
                   <h3 class="card-title mb-2">More Options</h3>
                     <a href="#" class="btn btn-primary btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
-                    <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="h1.php" class="btn btn-primary btn-sm mb-1">View History</a>
                     <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
                   </div>                  
 
