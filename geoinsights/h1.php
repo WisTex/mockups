@@ -14,7 +14,7 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
+                    <h3 class="card-title mb-2">Facies Models <span class="card-subtitle">Gulf of Mexico</span></h3> 
                     <style>
                         .map {
                             display: inline-block;
@@ -101,33 +101,16 @@
                     </script>                   
                   </div>
                   <div class="card-footer">
-                  <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
-                  <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
+                  <a href="a.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
+                  <a href="h1.php" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
 
                   </a>                  
-                  <a href="#" class="btn btn-warning btn-sm">Change Data Set</a>
+                  <a href="h.php" class="btn btn-warning btn-sm">Change Model</a>
+                  <a href="c.php" class="btn btn-warning btn-sm">Change Data Set</a>
                   </div>
 
                 </div>
-
-
-
-                
-
-
-
-
-
-
-
-              
-
-
-
-
-
-
 
               </div>
               
@@ -135,7 +118,55 @@
               <div class="col-lg-3">
 
 
+              <div class="card mb-3">
+              
+                  <div class="card-header">
+                    <h3 class="card-title">Fans &amp; Channels <span class="card-subtitle">MBEQ</span></h3>
+                  </div>
+              
+              
+              <div class="table-responsive">
+  <table class="table table-vcenter">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>MBEQ</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Channel 1</td>
+        <td class="text-secondary">
+          52
+        </td>
+      </tr>
+      <tr>
+        <td>Deep Water Fan</td>
+        <td class="text-secondary">
+          2052
+        </td>
+      </tr>      
+      <tr>
+        <td>Channel 4</td>
+        <td class="text-secondary">
+          189
+        </td>
+      </tr>          
+      <tr>
+        <td>Sand Bar</td>
+        <td class="text-secondary">
+          189
+        </td>
+      </tr>                  
+    </tbody>
+  </table>
+</div>
+<div class="card-footer">
+                    Current Selection: &ge; 50 MBEQ
+                  </div>
 
+    </div>
 
 
               <div class="card mb-3">
@@ -145,32 +176,39 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Select Parameters</h3>
+                    <h3 class="card-title mb-2">Select Model</h3>
                     
-                    <a href="#" class="btn btn-ghost-success btn-sm">None (Defaults)</a> <br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
-                    <p class="mt-1"><small>Note: Context sensitive menu. Application runs with new parameters when selected.</small></p>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">SOM Recipes</a> <br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Fault Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-success btn-sm">Facies Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Production Profile Models</a>
+                    <p class="mt-1"><small>Note: Application runs with new models when selected.</small></p>
 
                   </div>
 
                   <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm mb-1">App Builder</a>  
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
                     <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
-                    <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
+                    <a href="h.php" class="btn btn-warning btn-sm mb-1">Change Model</a>
+                    <a href="c.php" class="btn btn-warning btn-sm mb-1">Change Application</a>
                   </div>                  
 
 
                 </div>
-                
-                
 
-
-                
-
-              </div>
+    <!-- AI Prompt -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <fieldset class="form-fieldset">  
+      <div class="mb-3">
+        <label class="form-label required">AI Prompt</label>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+      </div>
+      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
+        <i class="ti ti-microphone"></i>&nbsp;
+      </a>
+    </fieldset>  
 
 
               

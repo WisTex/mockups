@@ -78,19 +78,19 @@
                     </style>
                     <div class="map"><img src="images/Gulf-of-Mexico-Map.png">
                         <div class="rpin code-som" data-toggle="tooltip" data-placement="top" title="5 results found">
-                            <p>SOM Recipes</p>
+                            <p><a href="h1.php">SOM Recipes</a></p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-fault" data-toggle="tooltip" data-placement="top" title="3 results found">
-                            <p>Fault Models</p>
+                            <p><a href="h1.php">Fault Models</a></p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-facies" data-toggle="tooltip" data-placement="top" title="4 results found">
-                            <p>Facies Models</p>
+                            <p><a href="h1.php">Facies Models</a></p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-product" data-toggle="tooltip" data-placement="top" title="12 results found">
-                            <p>Production<br>Profile Models</p>
+                            <p><a href="h1.php">Production<br>Profile Models</a></p>
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                     </div>
@@ -101,32 +101,16 @@
                     </script>                   
                   </div>
                   <div class="card-footer">
-                  <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
-                  <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
+                  <a href="a.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
+                  <a href="h1.php" class="btn btn-primary btn-sm">SOM Recipes</a>
+                  <a href="h1.php" class="btn btn-primary btn-sm">Fault Models</a>
+                  <a href="h1.php" class="btn btn-primary btn-sm">Facies Models</a>
+                  <a href="h1.php" class="btn btn-primary btn-sm">Production Profile Models</a>
 
-                  </a>                  
-                  <a href="#" class="btn btn-warning btn-sm">Change Data Set</a>
+                  <a href="c.php" class="btn btn-warning btn-sm">Change Data Set</a>
                   </div>
 
                 </div>
-
-
-
-                
-
-
-
-
-
-
-
-              
-
-
-
-
-
 
 
               </div>
@@ -145,18 +129,18 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Select Parameters</h3>
+                    <h3 class="card-title mb-2">Select Model</h3>
                     
-                    <a href="#" class="btn btn-ghost-success btn-sm">None (Defaults)</a> <br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
-                    <p class="mt-1"><small>Note: Context sensitive menu. Application runs with new parameters when selected.</small></p>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">SOM Recipes</a> <br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Fault Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Facies Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Production Profile Models</a>
+                    <p class="mt-1"><small>Note: Application runs with new models when selected.</small></p>
 
                   </div>
 
                   <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm mb-1">App Builder</a>  
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
                     <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
                     <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
@@ -164,14 +148,24 @@
 
 
                 </div>
-                
-                
 
-
-                
+    <!-- AI Prompt -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <fieldset class="form-fieldset">  
+      <div class="mb-3">
+        <label class="form-label required">AI Prompt</label>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+      </div>
+      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
+        <i class="ti ti-microphone"></i>&nbsp;
+      </a>
+    </fieldset>  
 
               </div>
 
+
+                 
 
               
             </div>
