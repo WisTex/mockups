@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/3D-view-of-fault-and-channel.jpg"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -82,14 +82,34 @@
     </div>
 
 
+    <div class="card mb-3">
+                  <!-- 
+                  <div class="card-header">
+                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
+                  </div>
+                  -->
+                  <div class="card-body">
+                    <h3 class="card-title mb-2">Select Data Type</h3>
+                    
+                    <a href="n.php" class="btn btn-ghost-primary btn-sm btn-block">Default</a><br>
+                    <a href="o.php" class="btn btn-ghost-success btn-sm">SOM</a><br>
+                    <p class="mt-1"><small>Note: Application runs with new data type when selected.</small></p>
+
+                  </div>
+
+                  <div class="card-footer">
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
+                    <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
+                  </div>                  
+
+
+                </div>    
+
     <fieldset class="form-fieldset">
   
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                        
+        
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
@@ -98,14 +118,19 @@
         <label class="form-label required">AI Prompt</label>
         <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
       </div>
-      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+      <a href="p.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
     </fieldset>  
                 
                 
-
+    <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>                
 
                 
 

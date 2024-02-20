@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/3D-channel.jpg"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -80,6 +80,33 @@
                   </div>
 
     </div>
+
+
+
+    <div class="card mb-3">
+                  <!-- 
+                  <div class="card-header">
+                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
+                  </div>
+                  -->
+                  <div class="card-body">
+                    <h3 class="card-title mb-2">Select Data Type</h3>
+                    
+                    <a href="n.php" class="btn btn-ghost-success btn-sm">Default</a> <br>
+                    <a href="o.php" class="btn btn-ghost-primary btn-sm">SOM</a><br>
+                    <p class="mt-1"><small>Note: Application runs with new data type when selected.</small></p>
+
+                  </div>
+
+                  <div class="card-footer">
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">App Builder</a>  
+                    <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
+                    <a href="g.php" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
+                  </div>                  
+
+
+                </div>
 
 
     <fieldset class="form-fieldset">
