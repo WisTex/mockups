@@ -15,14 +15,16 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/3D-view-of-fault-and-channel.jpg"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
+                  
                   <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
 
                   </a>                  
+                  <a href="t.php" class="btn btn-success btn-sm">Well Logs</a>
                   <a href="#" class="btn btn-warning btn-sm">Change Data Set</a>
                   </div>
 
@@ -78,18 +80,13 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  <div class="card-footer">
+                    Current Prompt: Request a cross section from west to east.
+                  </div>       
     </div>
 
 
-    <fieldset class="form-fieldset">
-  
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                        
+                     
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
@@ -104,7 +101,14 @@
       </a>
     </fieldset>  
                 
-                
+    <fieldset class="form-fieldset">
+  
+  <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>                   
 
 
                 
