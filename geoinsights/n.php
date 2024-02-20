@@ -78,7 +78,10 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  <div class="card-footer">
+                    Current Selection: Calculate the PCA and SOM
+                  </div>                  
+                  
     </div>
 
 
@@ -109,14 +112,7 @@
                 </div>
 
 
-    <fieldset class="form-fieldset">
-  
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                        
+
 
 
     <!-- AI Prompt -->
@@ -132,7 +128,14 @@
       </a>
     </fieldset>                  
                 
-
+    <fieldset class="form-fieldset">
+  
+  <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>                        
 
                 
 

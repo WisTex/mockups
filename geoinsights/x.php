@@ -85,14 +85,7 @@
     </div>
 
 
-    <fieldset class="form-fieldset">
-  
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                        
+               
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
@@ -108,7 +101,14 @@
     </fieldset>  
                 
                 
-
+    <fieldset class="form-fieldset">
+  
+  <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>         
 
                 
 

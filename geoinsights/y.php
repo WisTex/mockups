@@ -233,7 +233,7 @@
     </div>
 
 
-    <fieldset class="form-fieldset">
+    
   
                   
 
@@ -249,7 +249,8 @@
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
     </fieldset>  
-                
+
+    <fieldset class="form-fieldset">    
     <div class="mb-3">
     <label class="form-label required">Size Threshold</label>
     <input type="text" class="form-control" value="50" autocomplete="off"/>

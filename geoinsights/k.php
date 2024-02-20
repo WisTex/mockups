@@ -100,7 +100,7 @@
     <label class="form-label required">Size Threshold</label>
     <input type="text" class="form-control" autocomplete="off"/>
   </div>
-  <a href="l.php" class="btn btn-primary btn-sm mb-1">Compute</a>
+  <a href="l.php" class="btn btn-info btn-sm mb-1">Compute</a>
 </fieldset>                        
 
     <!-- AI Prompt -->
