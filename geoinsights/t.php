@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/3D-view-of-fault-and-channel.jpg"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -78,7 +78,9 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  <div class="card-footer">
+                    Current Selection: Well Logs Cross Section
+                  </div>
     </div>
 
 
