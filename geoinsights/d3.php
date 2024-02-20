@@ -117,7 +117,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
-                    <p><img src="images/seismic-image-1.png"></img></p>
+                    <p><img src="images/seismic-image-4.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">View Larger Version</a>
