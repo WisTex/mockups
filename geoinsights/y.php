@@ -15,7 +15,155 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-view-of-fault-and-channel.jpg"></img></p>
+                    <style>
+                        .map {
+                            display: inline-block;
+                            margin: 1em auto;
+                            position: relative;
+                            border: 1px solid grey;
+                        }
+
+                        .map img {
+                            max-width: 100%;
+                            display: block;
+                        }
+
+                        .map .svgline {
+                            color: #fff;
+                            width: 32px;
+                            height: 64px;
+                            transform: scale(1, 3) rotate(350deg);
+                            opacity: .6;
+                            margin: 28px 0 0 0;
+                        }
+
+                        .map .svgline:hover, .map .svgbubble:hover {
+                            cursor: pointer;
+                        }
+
+                        .map .svgbubble {
+                            color: #000;
+                            animation-iteration-count: 1;                        
+                            transform: rotate(180deg);
+                            opacity: .9;         
+                            display: block;  
+                            position: relative;              
+                        }
+
+                        .map .svgbubble-facies {
+                            width: 32px;
+                            height: 64px;
+                            margin: 0 0 0 -5px; 
+                            animation: growAnimationFacies ease 3s;
+                        }                     
+
+                        @keyframes growAnimationFacies {
+                          0% {
+                            width: 0;
+                            margin: 0 0 0 12px;
+                            top: 15px;
+                          }
+                          100% {
+                            width: 32px;
+                            margin: 0 0 0 -5px;
+                            top: 0;
+                          }
+                        }      
+                        
+                        .map .svgbubble-som {
+                            width: 24px;
+                            height: 48px;
+                            margin: 0 0 0 0; 
+                            animation: growAnimationSom ease 3s;
+                            top: -5px;
+                        } 
+
+                        @keyframes growAnimationSom {
+                          0% {
+                            width: 0;
+                            margin: 0 0 0 11px;
+                            top: 5px;
+                          }
+                          100% {
+                            width: 24px;
+                            margin: 0 0 0 0;
+                            top: -5px;
+                          }
+                        }                         
+                        
+                        .map .svgbubble-fault {
+                            width: 16px;
+                            height: 32px;
+                            margin: 0 0 0 4px; 
+                            animation: growAnimationFault ease 3s;
+                            top: -10px;
+                        } 
+
+                        @keyframes growAnimationFault {
+                          0% {
+                            width: 0;
+                            margin: 0 0 0 10px;
+                            top: 0;
+                          }
+                          100% {
+                            width: 16px;
+                            margin: 0 0 0 4px;
+                            top: -10px;
+                          }
+                        } 
+
+                        .map p {
+                            color: #000;
+                            font-size: .75rem;
+                            font-weight: bold;
+                            line-height: .85rem;
+                            margin: 0;
+                            padding: 4px 10px;
+                            background-color: #f9f9f9;
+                            border: 1px solid #000;
+                            border-radius: 15px;
+                        }
+
+                        .rpin {
+                            position: absolute;
+                            display: block;
+                            height: 5%;
+                        }
+
+                        .code-som {
+                            bottom: 79.9282%;
+                            left: 50.5994%;
+                        }
+
+                        .code-fault {
+                            bottom: 65.858%;
+                            left: 32.716%;
+                        }
+
+                        .code-facies {
+                            bottom: 70.2392%;
+                            left: 45.4641%;
+                        }
+                    </style>
+                    <div class="map"><img src="images/3D-view-of-fault-and-channel.jpg">
+                        <div class="rpin code-som">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-som" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 4: 189 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 4: 189 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                        </div>
+                        <div class="rpin code-fault">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-fault" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 1: 52 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>  
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 1: 52 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                        </div>
+                        <div class="rpin code-facies">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-facies" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                        </div>
+                    </div>
+                    <script>
+                        $(document).ready(function(){
+                            $('[data-toggle="tooltip"]').tooltip(); 
+                        });
+                    </script>              
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
