@@ -78,6 +78,9 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
+                  <div class="card-footer">
+                    Current Prompt: Identify undrilled geobodies
+                  </div>                  
 
     </div>
 
@@ -96,9 +99,9 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Select new well locations and generate production history for 5 years for optimal production.</textarea>
       </div>
-      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+      <a href="y.php" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>

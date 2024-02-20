@@ -79,7 +79,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Zoomed into Pay
+                    Current prompt: Current Prompt: Highlight the SOM for signature for pay in the 3D viewer.
                   </div>
     </div>
 
@@ -91,9 +91,9 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Calculate SOM pay Geobodies</textarea>
       </div>
-      <a href="v1.php" class="btn btn-info btn-sm mb-1">Compute</a>
+      <a href="v4.php" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>

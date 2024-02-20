@@ -226,18 +226,16 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  
+                  <div class="card-footer">
+                    Current Prompt: Select new  well locations (3-5)  and generate production history for 5 years for optimal production
+                  </div>                  
     </div>
 
 
     <fieldset class="form-fieldset">
   
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                        
+                  
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
@@ -252,7 +250,12 @@
       </a>
     </fieldset>  
                 
-                
+    <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>                      
 
 
                 
