@@ -14,8 +14,8 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
-                    <p><img src="images/seismic-image-1.png"></img></p>
+                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
+                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -30,22 +30,6 @@
 
 
 
-                
-
-
-
-
-
-
-
-              
-
-
-
-
-
-
-
               </div>
               
               
@@ -53,47 +37,74 @@
 
 
 
-
-
               <div class="card mb-3">
-                  <!-- 
+              
                   <div class="card-header">
-                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
+                    <h3 class="card-title">Fans &amp; Channels <span class="card-subtitle">MBEQ</span></h3>
                   </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title mb-2">Select Parameters</h3>
-                    
-                    <a href="#" class="btn btn-ghost-success btn-sm">None (Defaults)</a> <br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Adjust the Gain</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Relative Amplitude Variation</a><br>
-                    <a href="#" class="btn btn-ghost-primary btn-sm">Amplitude Scale Change</a>
-                    <p class="mt-1"><small>Note: Context sensitive menu. Application runs with new parameters when selected.</small></p>
-
+              
+              
+              <div class="table-responsive">
+  <table class="table table-vcenter">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>MBEQ</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Channel 1</td>
+        <td class="text-secondary">
+          52
+        </td>
+      </tr>
+      <tr>
+        <td>Channel 2</td>
+        <td class="text-secondary">
+          2052
+        </td>
+      </tr>      
+      <tr>
+        <td>Channel 4</td>
+        <td class="text-secondary">
+          189
+        </td>
+      </tr>            
+    </tbody>
+  </table>
+</div>
+<div class="card-footer">
+                    Current Selection: &ge; 50 MBEQ
                   </div>
 
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-sm mb-1">App Builder</a>  
-                    <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
-                    <a href="#" class="btn btn-primary btn-sm mb-1">View History</a>
-                    <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
-                  </div>                  
+    </div>
 
 
-                </div>
-                
+    <fieldset class="form-fieldset">
+  
+  <div class="mb-3">
+    <label class="form-label required">Size Threshold</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+</fieldset>                        
+
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">I want to see wells with pay in the Miocene within the area outlined.</textarea>
       </div>
       <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
-    </fieldset>                  
+    </fieldset>  
+                
+                
 
 
                 
