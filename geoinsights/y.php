@@ -18,6 +18,7 @@
 
                     <p><img src="images/geo-potential-wells.png"></img></p>
 
+                    <?php /*
 
                     <style>
                         .map {
@@ -168,6 +169,7 @@
                             $('[data-toggle="tooltip"]').tooltip(); 
                         });
                     </script>              
+                    */ ?>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
