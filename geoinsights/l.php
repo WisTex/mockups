@@ -83,6 +83,35 @@
                   </div>          
     </div>
 
+    <div class="card mb-3">
+                  <!-- 
+                  <div class="card-header">
+                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
+                  </div>
+                  -->
+                  <!--
+                  <div class="card-body">
+                    <h3 class="card-title mb-2">Select Actions</h3>
+                    
+                    
+                    <a href="k.php" class="btn btn-primary btn-sm mb-1">Compute Geobodies</a>
+                    
+                    
+                    
+
+                  </div>
+                  -->
+                  <div class="card-body">
+                  <h3 class="card-title mb-2">More Options</h3>
+                    <a href="m.php" class="btn btn-info btn-sm mb-1">App Builder</a>  
+                    <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
+                    <a href="h1.php" class="btn btn-primary btn-sm mb-1">View History</a>
+                    <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
+                  </div>                  
+
+
+                </div>
+
 <!--
     <fieldset class="form-fieldset">  
       <div class="mb-3">
@@ -100,7 +129,7 @@
         <label class="form-label required">AI Prompt</label>
         <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
       </div>
-      <a href="n.php" class="btn btn-info btn-sm mb-1">Compute</a>
+      <a href="m.php" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>

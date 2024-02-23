@@ -49,13 +49,13 @@
                     <h3 class="card-title mb-2">Progress <!-- <span class="card-subtitle">Processing in Cloud</span> -->
                     <span class="status status-cyan pull-right">
                       <span class="status-dot status-dot-animated"></span>
-                        Processing in Cloud
+                        Building App Builder
                       </span>
                     </h3>
                     <div class="progress progress-lg mt-3 mb-3">
                       <div class="progress-bar progress-bar-indeterminate"></div>
                     </div>
-                    <a href="h.php" class="btn btn-primary disabled btn-sm">Processing...</a>  
+                    <a href="h.php" class="btn btn-primary disabled btn-sm">Building...</a>  
                   </div>
                 </div>  
 
@@ -125,7 +125,7 @@
                   </div>
                   <div class="card-footer">
 
-                  <a href="h.php" class="btn btn-warning btn-sm">Next</a>
+                  <a href="n.php" class="btn btn-warning btn-sm">Next</a>
                   </div>
 
                 </div>
