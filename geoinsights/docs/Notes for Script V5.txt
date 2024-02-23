@@ -1,0 +1,121 @@
+Navbar
+
+Viewers
+Data instead of Data Set
+Models & Recipes
+
+Scene H
+
+Add more icons. Max 4 or 5 more.
+
+Scene H1
+
+Hover over the button and the selected items change color. Yellow background.
+Change button to Select All Channels & Fans
+Add New Scene H2 showing selected items.
+
+Set threshbold on this screen instead of having a seperate scene for it. Label MBEQ.
+Click on Apply to go to Scene I
+
+Change MBEQ to buttons for selection.
+
+Scene I
+
+Channel Mioscene 1, 2, 3 etc.
+No Fans were found. 
+
+Channel 1 52
+Channel 2 80
+Channel 3 110
+Add two more lower ones.
+
+Change Compute Geobodies to Highlight Channels
+
+ Scene I2 (Scene L?) - Data Select Channels
+
+button - show cropped image
+
+Scene M et all
+
+
+Create App - App Builder - button on sidebar
+Connect PCA and SOM and Geobodies and Faults
+Recipes: (drag from list)
+    Recipe 1 to 10
+Data Selector: Current Data Set
+Save & Run
+
+Progress bar - running in cloud.
+
+Scene Z - Apply to Wider Data Set
+
+Scene N
+
+Image with data selector geobodies - that shows connectivity
+Shows whether areas are connected.
+
+Current Selection: Calculate the PCA and SOM with Geobodies from Recipe
+
+Scene O - goes away
+
+
+Scene Q - 
+
+2 wells highlighted as pay
+1 not
+using labels about the white sticks (wells)
+
+Scene R - S 
+using labels about the white sticks (wells)
+
+Scene T
+
+Same as Scene S, but has production numbers for the wells in a table on the side.
+Well 1 20000 to 35000 barrels per day (BBEQ)
+Weel 2
+Well 3
+
+New image without sand highlighted.
+
+Scene T2
+
+Chat: Show me the mioscene sand that these wells are producing.
+
+Scene T3
+
+Show second image with sands highlighted.
+
+Go Back to Selected Data button
+
+Scene U - remove - no drag and drop button for facies
+
+Scene V - get rid of
+
+Scene W
+
+Shows the geobodies (data highlighted) without wells
+
+Skip Chat: Identify undrilled geobodies
+
+Scene X
+
+Select new  well locations (3-5)  and generate production history for 5 years for optimal production.” Chat
+
+Scene Y
+
+Make oil bubbles bigger
+Place on Geobodies map (selected data and added areas)
+Put suggested wells on added areas
+
+Scene Z
+
+Run entire thoughtflow over the entire area and highlight and find to top 10 producing geobodies.
+Show big map with 10 red dots.
+Show cloud processing.
+
+
+
+
+
+
+

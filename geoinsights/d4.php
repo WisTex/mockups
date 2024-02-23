@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
-                    <p><img src="images/seismic-image-5.png"></img></p>
+                    <p><img src="images/seismic-image-d4.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="d1.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
