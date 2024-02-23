@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel.jpg"></img></p>
+                    <p><img src="images/geobodies3.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -63,13 +63,13 @@
       <tr>
         <td>Channel 2</td>
         <td class="text-secondary">
-          2052
+          80
         </td>
       </tr>      
       <tr>
         <td>Channel 4</td>
         <td class="text-secondary">
-          189
+          110
         </td>
       </tr>            
     </tbody>
@@ -79,12 +79,37 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Selection: Calculate the PCA and SOM
+                    Current Selection: Calculate the PCA and SOM with Geobodies from Recipe
+                  </div>                
+                  <!--  
+                  <div class="card-footer">
+  <a href="q.php" class="btn btn-primary btn-sm mb-1">Highlight Wells with Pay</a>
                   </div>                  
+    -->
                   
     </div>
 
 
+
+
+
+
+
+
+    <!-- AI Prompt -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <fieldset class="form-fieldset">  
+      <div class="mb-3">
+        <label class="form-label required">AI Prompt</label>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+      </div>
+      <a href="p.php" class="btn btn-info btn-sm mb-1">Compute</a>
+      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
+        <i class="ti ti-microphone"></i>&nbsp;
+      </a>
+    </fieldset>                  
+
+    
 
     <div class="card mb-3">
                   <!-- 
@@ -111,23 +136,6 @@
 
                 </div>
 
-
-
-
-
-    <!-- AI Prompt -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
-    <fieldset class="form-fieldset">  
-      <div class="mb-3">
-        <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
-      </div>
-      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
-        <i class="ti ti-microphone"></i>&nbsp;
-      </a>
-    </fieldset>                  
-                
     <fieldset class="form-fieldset">
   
   <div class="mb-3">

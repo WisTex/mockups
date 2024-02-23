@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/geobodies2.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -63,34 +63,26 @@
       <tr>
         <td>Channel 2</td>
         <td class="text-secondary">
-          2052
+          80
         </td>
       </tr>      
+
       <tr>
-        <td>Fan 3</td>
+        <td>Channel 3</td>
         <td class="text-secondary">
-          42
+          110
         </td>
       </tr>
-      <tr>
-        <td>Channel 4</td>
-        <td class="text-secondary">
-          189
-        </td>
-      </tr>
-      <tr>
-        <td>Fan 5</td>
-        <td class="text-secondary">
-          26
-        </td>
-      </tr>                  
+
     </tbody>
   </table>
 </div>
 <div class="card-footer">
-                    Current Selection: All
+                    Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  <div class="card-footer">
+  <a href="l.php" class="btn btn-primary btn-sm mb-1">Data Select Channels</a>
+                  </div>
     </div>
 
 

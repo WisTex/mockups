@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/3D-channel-and-fan.jpg"></img></p>
+                    <p><img src="images/geobodies2.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -63,13 +63,13 @@
       <tr>
         <td>Channel 2</td>
         <td class="text-secondary">
-          2052
+          80
         </td>
       </tr>      
       <tr>
-        <td>Channel 4</td>
+        <td>Channel 3</td>
         <td class="text-secondary">
-          189
+          110
         </td>
       </tr>            
     </tbody>
@@ -78,10 +78,12 @@
 <div class="card-footer">
                     Current Selection: &ge; 50 MBEQ
                   </div>
-
+                  <div class="card-footer">
+                    Channels highlighted.
+                  </div>          
     </div>
 
-
+<!--
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">Size Threshold</label>
@@ -89,6 +91,7 @@
       </div>
       <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
     </fieldset>                        
+    -->
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />

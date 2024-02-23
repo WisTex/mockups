@@ -218,7 +218,7 @@
                 <!-- 
                   Says whether this is a channel or a forum.
                 -->
-                <div class="text-secondary">Data Set</div>
+                <div class="text-secondary">Stacked Seismic Volume</div>
                 <div class="!mt-3">
                 </div>
               </div>

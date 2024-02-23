@@ -121,7 +121,7 @@
               <div class="card mb-3">
               
                   <div class="card-header">
-                    <h3 class="card-title">Fans &amp; Channels <span class="card-subtitle">MBEQ</span></h3>
+                    <h3 class="card-title">Fans &amp; Channels <span class="card-subtitle">Facies</span></h3>
                   </div>
               
               
@@ -130,7 +130,7 @@
     <thead>
       <tr>
         <th>Name</th>
-        <th>MBEQ</th>
+        <th>Choice</th>
         
       </tr>
     </thead>
@@ -138,32 +138,32 @@
       <tr>
         <td>Channel 1</td>
         <td class="text-secondary">
-          52
+        <a href="i.php" class="btn btn-success btn-sm">Select</a>
         </td>
       </tr>
       <tr>
         <td>Deep Water Fan</td>
         <td class="text-secondary">
-          2052
+        <a href="i.php" class="btn btn-success btn-sm">Select</a>
         </td>
       </tr>      
       <tr>
         <td>Channel 4</td>
         <td class="text-secondary">
-          189
+        <a href="i.php" class="btn btn-success btn-sm">Select</a>
         </td>
       </tr>          
       <tr>
         <td>Sand Bar</td>
         <td class="text-secondary">
-          189
+          <a href="i.php" class="btn btn-success btn-sm">Select</a>
         </td>
       </tr>                  
     </tbody>
   </table>
 </div>
 <div class="card-footer">
-<a href="i.php" class="btn btn-success btn-sm">Select Channels &amp; Fans</a>
+<a href="i.php" class="btn btn-success btn-sm">Select All Channels &amp; Fans</a>
                   </div>
 
     </div>
