@@ -16,7 +16,7 @@
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
 
-                    <p><img src="images/geo-potential-wells.png" height="750"></img></p>
+                    <p><img src="images/geo-potential-wells-sticks.png" height="750"></img></p>
 
                     <?php /*
 
