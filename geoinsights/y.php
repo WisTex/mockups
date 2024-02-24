@@ -272,7 +272,7 @@
       labels: [
         'Year 0', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'
       ],
-      colors: [tabler.getColor("primary"), tabler.getColor("purple")],
+      colors: [tabler.getColor("primary"), tabler.getColor("purple"), tabler.getColor("success"), tabler.getColor("info")],
       legend: {
         show: true,
         position: 'bottom',
