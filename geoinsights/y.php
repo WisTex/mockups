@@ -3,7 +3,7 @@
         <div class="page-body">
           <div class="container-xl">
             <div class="row row-cards">
-              <div class="col-lg-9">
+              <div class="col-lg-7">
 
 
 
@@ -187,7 +187,100 @@
               </div>
               
               
-              <div class="col-lg-3">
+              <div class="col-lg-5">
+
+
+              <div class="card mb-3">
+  <div class="card-body">
+    <div id="chart-demo-area" class="chart-lg"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.0.0-beta17/dist/libs/apexcharts/dist/apexcharts.min.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    window.ApexCharts && (new ApexCharts(document.getElementById('chart-demo-area'), {
+      chart: {
+        type: "area",
+        fontFamily: 'inherit',
+        height: 240,
+        parentHeightOffset: 0,
+        toolbar: {
+          show: false,
+        },
+        animations: {
+          enabled: false
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      fill: {
+        opacity: .16,
+        type: 'solid'
+      },
+      stroke: {
+        width: 2,
+        lineCap: "round",
+        curve: "smooth",
+      },
+      series: [{
+        name: "series1",
+        data: [56, 40, 39, 47, 34, 48, 44]
+      }, {
+        name: "series2",
+        data: [45, 43, 30, 23, 38, 39, 54]
+      }],
+      tooltip: {
+        theme: 'dark'
+      },
+      grid: {
+        padding: {
+          top: -20,
+          right: 0,
+          left: -4,
+          bottom: -4
+        },
+        strokeDashArray: 4,
+      },
+      xaxis: {
+        labels: {
+          padding: 0,
+        },
+        tooltip: {
+          enabled: false
+        },
+        axisBorder: {
+          show: false,
+        },
+        type: 'datetime',
+      },
+      yaxis: {
+        labels: {
+          padding: 4
+        },
+      },
+      labels: [
+        '2020-06-21', '2020-06-22', '2020-06-23', '2020-06-24', '2020-06-25', '2020-06-26', '2020-06-27'
+      ],
+      colors: [tabler.getColor("primary"), tabler.getColor("purple")],
+      legend: {
+        show: true,
+        position: 'bottom',
+        offsetY: 12,
+        markers: {
+          width: 10,
+          height: 10,
+          radius: 100,
+        },
+        itemMargin: {
+          horizontal: 8,
+          vertical: 8
+        },
+      },
+    })).render();
+  });
+</script>
 
 
 
