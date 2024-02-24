@@ -311,23 +311,29 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel 1</td>
+        <td>Proposed Well 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
       <tr>
-        <td>Channel 2</td>
+        <td>Proposed Well 2</td>
         <td class="text-secondary">
-          2052
+          87
         </td>
       </tr>      
       <tr>
-        <td>Channel 4</td>
+        <td>Proposed Well 3</td>
         <td class="text-secondary">
           189
         </td>
-      </tr>            
+      </tr>       
+      <tr>
+        <td>Proposed Well 4</td>
+        <td class="text-secondary">
+          110
+        </td>
+      </tr>                  
     </tbody>
   </table>
 </div>
@@ -358,13 +364,7 @@
       </a>
     </fieldset>  
 
-    <fieldset class="form-fieldset">    
-    <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                      
+                   
 
 
                 
