@@ -225,11 +225,20 @@
         curve: "smooth",
       },
       series: [{
-        name: "series1",
-        data: [56, 40, 39, 47, 34, 48, 44]
-      }, {
-        name: "series2",
-        data: [45, 43, 30, 23, 38, 39, 54]
+        name: "Proposed Well 1",
+        data: [0, 25, 42, 65, 64, 60]
+      }, 
+      {
+        name: "Proposed Well 2",
+        data: [0, 10, 40, 39, 52, 34]
+      }, 
+      {
+        name: "Proposed Well 3",
+        data: [0, 45, 52, 44, 42, 42]
+      }, 
+      {
+        name: "Proposed Well 4",
+        data: [0, 60, 55, 45, 38, 30]
       }],
       tooltip: {
         theme: 'dark'
@@ -253,7 +262,7 @@
         axisBorder: {
           show: false,
         },
-        type: 'datetime',
+        type: 'label',
       },
       yaxis: {
         labels: {
@@ -261,7 +270,7 @@
         },
       },
       labels: [
-        '2020-06-21', '2020-06-22', '2020-06-23', '2020-06-24', '2020-06-25', '2020-06-26', '2020-06-27'
+        'Year 0', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'
       ],
       colors: [tabler.getColor("primary"), tabler.getColor("purple")],
       legend: {
