@@ -7,7 +7,7 @@
 
 
 
-              <div class="card mb-3" style="min-height: 500px;">
+              <div class="card mb-3" style="min-height: 500px; max-height: 950px;">
                   <!--
                   <div class="card-header">
                     <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/geobodies4.png"></img></p>
+                    <p><img src="images/geobodies4.png" height="725"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
