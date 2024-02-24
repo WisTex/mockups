@@ -3,7 +3,7 @@
         <div class="page-body">
           <div class="container-xl">
             <div class="row row-cards">
-              <div class="col-lg-7">
+              <div class="col-lg-6">
 
 
 
@@ -187,7 +187,7 @@
               </div>
               
               
-              <div class="col-lg-5">
+              <div class="col-lg-6">
 
 
               <div class="card mb-3">
