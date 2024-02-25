@@ -9,17 +9,29 @@
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-3">
                       <div class="me-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-md icon-tabler icon-tabler-map-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5" /><path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M20.2 20.2l1.8 1.8" /></svg>
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-md icon-tabler icon-tabler-app-window" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>
                       </div>
                       <div>
-                        <small class="text-secondary">Location</small>
-                        <h3 class="lh-1">Gulf of Mexico</h3>
+                        <small class="text-secondary">App Builder</small>
+                        <h3 class="lh-1">Create New App</h3>
                       </div>
                     </div>
-                    <p><img src="images/Gulf-of-Mexico-Map.png"></img></p>
+                    <div class="mb-3">
+                      <label class="form-label required">Name</label>
+                      <input type="text" class="form-control" autocomplete="off"/>
+                    </div>
+                    <div class="mb-3">
+                              <div class="form-label required">Data</div>
+                              <select class="form-select" >
+                                <option value="1">Current Data Set</option>
+                                <option value="2">Stacked Seismic Volume</option>
+                                <option value="3">Multiple Azimuth Gathers</option>
+                              </select>
+                            </div>                    
                     
-                    
-                    
+
+
                     
                     
                     
@@ -30,77 +42,90 @@
                   Selected
                   </div>
     -->
+    <!--
                   <div class="card-footer">
                     <a href="map.php" class="btn btn-primary btn-sm">View Map</a>
                     
                   </div>
+    -->
                 </div>
 
+                <div class="card" style="min-height: 510px;">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs" data-bs-toggle="tabs">
+      <li class="nav-item">
+        <a href="#tabs-home-ex2" class="nav-link active" data-bs-toggle="tab">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-app-window me-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" />
+      </svg> Applets</a>
+      </li>
+      <li class="nav-item">
+        <a href="#tabs-profile-ex2" class="nav-link" data-bs-toggle="tab">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze me-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>  
+          Models &amp; Recipes</a>
+      </li>
+      <li class="nav-item">
+        <a href="#tabs-thought-ex2" class="nav-link" data-bs-toggle="tab">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb me-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>  
+         ThoughtFlows</a>
+      </li>      
+      <li class="nav-item ms-auto">
+        <a href="#tabs-settings-ex2" class="nav-link" title="Settings" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+    <div class="tab-content">
+      <div class="tab-pane active show" id="tabs-home-ex2">
+        <h4>Applets</h4>
+        <div>
+          <p>Some of the apps include:</p>
+          <p>PCA<br>
+          SOM<br>
+          Geobodies<br>
+          Faults</p>
+        </div>
+        
+      </div>
+      <div class="tab-pane" id="tabs-profile-ex2">
+        <h4>Models &amp; Recipes</h4>
+        <div>
+        <p>Some of the recipes include:</p>
+          <p>Recipe 1<br>
+          Recipe 2<br>
+          Recipe 3<br>
+          Recipe 4</p>
+        </div>
+      </div>
+      <div class="tab-pane" id="tabs-thought-ex2">
+        <h4>Thoughtflows</h4>
+        <div>Not used in this demo. Tab might be deleted.</div>
+      </div>      
+      <div class="tab-pane" id="tabs-settings-ex2">
+        <h4>Settings</h4>
+        <div>Donec ac vitae diam amet vel leo egestas consequat rhoncus in luctus amet, facilisi sit mauris accumsan nibh habitant senectus</div>
+      </div>
+    </div>
+  </div>
+</div>
                 
 
 
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title mb-2">Progress <!-- <span class="card-subtitle">Processing in Cloud</span> -->
-                    <span class="status status-cyan pull-right">
-                      <span class="status-dot status-dot-animated"></span>
-                        Building App Builder
-                      </span>
-                    </h3>
-                    <div class="progress progress-lg mt-3 mb-3">
-                      <div class="progress-bar progress-bar-indeterminate"></div>
-                    </div>
-                    <a href="h.php" class="btn btn-primary disabled btn-sm">Building...</a>  
-                  </div>
-                </div>  
+
 
 
 
 
               
 
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                -->
-
-                  <div class="card-body">
-                    <ul class="steps steps-counter steps-vertical">
-                      <li class="step-item">Select Location: Gulf of Mexico</li>
-                      <li class="step-item">Select Data Set: Stacked Seismic Volume</li>
-                      <li class="step-item active">Select Application: View Dataset</li>
-                      <li class="step-item">Select Models &amp; Recipes</li>
-                      <li class="step-item">Select Parameters</li>
-                      <li class="step-item">View Result</li>
-                    </ul>
-                  </div>
-                </div>
 
 
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                -->
 
-                  <div class="card-body">
-                    <ul class="steps steps-counter steps-vertical">
-                      <li class="step-item">Select Location: Gulf of Mexico</li>
-                      <li class="step-item">Select Data Set: Stacked Seismic Volume</li>
-                      <li class="step-item">Select Application: View Dataset</li>
-                      <li class="step-item">Select Parameters: Amplitude Scale Change</li>
-                      <li class="step-item active">View Result</li>
-                    </ul>
-                  </div>
-                </div>
+
 
 
 
@@ -120,12 +145,27 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Applications <span class="card-subtitle">Coming soon!</span></h3> 
+                    <h3 class="card-title mb-2">Application Builder <span class="card-subtitle">Canvas</span></h3> 
                     
+                    <!-- dropzone goes here. -->
+
+                    <!-- Begin developer notes (this text is not on final version) -->
+                    <p>Script</p>
+                    <ol>
+                      <li>Drag PCA, SOM, Geobodies, and Faults here.
+                      <li>Drag Recipe 1 here.
+                      <li>Press Save &amp; Run
+                    </ol>
+                    <p>There needs to be some indicator of order. For example, it runs PCA, then SOM, then Geobodies, then Faults.</p>
+                    <!-- End developer notes -->
+
+
                   </div>
                   <div class="card-footer">
 
-                  <a href="n.php" class="btn btn-warning btn-sm">Next</a>
+                  <a href="n.php" class="btn btn-primary btn-sm">Save</a>
+                  <a href="n.php" class="btn btn-info btn-sm">Save &amp; Run</a>
+                  <a href="n.php" class="btn btn-danger btn-sm pull-right">Delete</a>
                   </div>
 
                 </div>

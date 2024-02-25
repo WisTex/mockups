@@ -79,19 +79,19 @@
                     <div class="map"><img src="assets/img/Gulf-of-Mexico-Map-cropped-2.png">
                         <div class="rpin code-som" data-toggle="tooltip" data-placement="top" title="2 results found">
                             <p>Channel Mioscene</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled text-warning icon-pulse" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-fault" data-toggle="tooltip" data-placement="top" title="4 results found">
                             <p>Channel Wilcox</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled text-warning icon-pulse" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-facies" data-toggle="tooltip" data-placement="top" title="1 results found">
-                            <p>Sand Bar</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
+                            <p class="text-muted">Sand Bar</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled text-muted" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                         <div class="rpin code-product" data-toggle="tooltip" data-placement="top" title="6 results found">
                             <p>Deep Water Fan</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-filled text-warning icon-pulse" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" stroke-width="0" fill="currentColor" /></svg>
                         </div>
                     </div>
                     <script>
@@ -121,7 +121,7 @@
               <div class="card mb-3">
               
                   <div class="card-header">
-                    <h3 class="card-title">Facies <span class="card-subtitle">Select Models</span></h3>
+                    <h3 class="card-title">Facies<span class="card-subtitle float-right">Select Models</span></h3>
                   </div>
               
               
@@ -136,25 +136,27 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel Wilcox</td>
-        <td style="text-align: right;" class="text-secondary float-right">
-        <a href="i.php" class="btn btn-success btn-sm float-right">Select</a>
+        <td>Channel Wilcox <span class="badge bg-warning-lt">Selected</span></td>
+        <td style="text-align: right;" class="text-secondary">
+        <a href="i.php" class="btn btn-danger btn-sm float-right">
+          Remove
+        </a>
         </td>
       </tr>
       <tr>
-        <td>Deep Water Fan</td>
+        <td>Deep Water Fan <span class="badge bg-warning-lt">Selected</span></td>
         <td style="text-align: right;" class="text-secondary">
-        <a href="i.php" class="btn btn-success btn-sm">Select</a>
+        <a href="i.php" class="btn btn-danger btn-sm">Remove</a>
         </td>
       </tr>      
       <tr>
-        <td>Channel Mioscene</td>
+        <td>Channel Mioscene <span class="badge bg-warning-lt">Selected</span></td>
         <td style="text-align: right;" class="text-secondary">
-        <a href="i.php" class="btn btn-success btn-sm">Select</a>
+        <a href="i.php" class="btn btn-danger btn-sm">Remove</a>
         </td>
       </tr>          
       <tr>
-        <td>Sand Bar</td>
+        <td>Sand Bar <span class="badge bg-muted-lt">Not Selected</span></td>
         <td style="text-align: right;" class="text-secondary">
           <a href="i.php" class="btn btn-success btn-sm">Select</a>
         </td>
@@ -163,13 +165,13 @@
   </table>
 </div>
 <div class="card-footer">
-<a href="h2.php" class="btn btn-success btn-sm mt-1">Select All</a> 
-<a href="h2.php" class="btn btn-success btn-sm mt-1">Select Channels</a> 
-<a href="h2.php" class="btn btn-success btn-sm mt-1">Select Fans</a> 
-<a href="h2.php" class="btn btn-success btn-sm mt-1">Select Sand Bar</a> 
-<a href="h2.php" class="btn btn-success btn-sm mt-1">Select Channels &amp; Fans</a>
+<a href="i.php" class="btn btn-success btn-sm mt-1">Select All</a> 
+<a href="i.php" class="btn btn-success btn-sm mt-1">Select Channels</a> 
+<a href="i.php" class="btn btn-success btn-sm mt-1">Select Fans</a> 
+<a href="i.php" class="btn btn-success btn-sm mt-1">Select Sand Bar</a> 
+<a href="i.php" class="btn btn-success btn-sm mt-1">Select Channels &amp; Fans</a>
 <br>
-<a href="h2.php" class="btn btn-info btn-sm mt-1 disabled">Apply & Run</a> <span class="badge bg-red-lt">Select Model(s) Before Proceeding</span>
+<a href="i.php" class="btn btn-info btn-sm mt-1">Apply & Run</a>
                   </div>
 
     </div>

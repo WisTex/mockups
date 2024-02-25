@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/geobodies1.png"></img></p>
+                    <p><img src="images/geobodies1.png" width="667"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -57,19 +57,14 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel 1</td>
+        <td>Mioscene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
+    
       <tr>
-        <td>Channel 2</td>
-        <td class="text-secondary">
-          80
-        </td>
-      </tr>      
-      <tr>
-        <td>Channel 4</td>
+        <td>Mioscene 2</td>
         <td class="text-secondary">
           110
         </td>
@@ -95,7 +90,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon alert-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 9v4" /><path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z" /><path d="M12 16h.01" /></svg>
                         </div>
                         <div>
-                          No fans were found.
+                          No fans identified.
                         </div>
                       </div>
                       <a class="btn-close" data-bs-dismiss="alert" aria-label="close"></a>
