@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/geobodies2.png"></img></p>
+                    <p><img src="images/geobodies2.png" width="667"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -55,21 +55,15 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel 1</td>
+        <td>Mioscene 1</td>
         <td class="text-secondary">
           52
         </td>
-      </tr>
+      </tr>    
       <tr>
-        <td>Channel 2</td>
+        <td>Mioscene 2</td>
         <td class="text-secondary">
-          2052
-        </td>
-      </tr>      
-      <tr>
-        <td>Channel 4</td>
-        <td class="text-secondary">
-          189
+          110
         </td>
       </tr>            
     </tbody>
