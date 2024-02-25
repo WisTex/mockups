@@ -14,12 +14,7 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-
-                    <p><img src="images/geo-potential-wells-sticks.png" height="750"></img></p>
-
-                    <?php /*
-
+                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3>
                     <style>
                         .map {
                             display: inline-block;
@@ -33,19 +28,6 @@
                             display: block;
                         }
 
-                        .map .svgline {
-                            color: #fff;
-                            width: 32px;
-                            height: 64px;
-                            transform: scale(1, 3) rotate(350deg);
-                            opacity: .6;
-                            margin: 28px 0 0 0;
-                        }
-
-                        .map .svgline:hover, .map .svgbubble:hover {
-                            cursor: pointer;
-                        }
-
                         .map .svgbubble {
                             color: #000;
                             animation-iteration-count: 1;                        
@@ -55,63 +37,83 @@
                             position: relative;              
                         }
 
-                        .map .svgbubble-facies {
-                            width: 32px;
-                            height: 64px;
+                        .map .svgbubble-well4 {
+                            width: 60px;
+                            height: 120px;
                             margin: 0 0 0 -5px; 
-                            animation: growAnimationFacies ease 3s;
+                            animation: growAnimationWell4 ease 5s;
                         }                     
 
-                        @keyframes growAnimationFacies {
+                        @keyframes growAnimationWell4 {
                           0% {
                             width: 0;
-                            margin: 0 0 0 12px;
-                            top: 15px;
+                            margin: 0 0 0 25px;
+                            top: 23px;
                           }
                           100% {
-                            width: 32px;
+                            width: 60px;
+                            margin: 0 0 0 -5px;
+                            top: 0;
+                          }
+                        }
+
+                        .map .svgbubble-well3 {
+                            width: 50px;
+                            height: 100px;
+                            margin: 0 0 0 -5px; 
+                            animation: growAnimationWell3 ease 4s;
+                        }                     
+
+                        @keyframes growAnimationWell3 {
+                          0% {
+                            width: 0;
+                            margin: 0 0 0 19px;
+                            top: 20px;
+                          }
+                          100% {
+                            width: 50px;
                             margin: 0 0 0 -5px;
                             top: 0;
                           }
                         }      
                         
-                        .map .svgbubble-som {
-                            width: 24px;
-                            height: 48px;
+                        .map .svgbubble-well2 {
+                            width: 40px;
+                            height: 80px;
                             margin: 0 0 0 0; 
-                            animation: growAnimationSom ease 3s;
-                            top: -5px;
+                            animation: growAnimationWell2 ease 3s;
+                            top: 0;
                         } 
 
-                        @keyframes growAnimationSom {
+                        @keyframes growAnimationWell2 {
                           0% {
                             width: 0;
-                            margin: 0 0 0 11px;
-                            top: 5px;
+                            margin: 0 0 0 19px;
+                            top: 15px;
                           }
                           100% {
-                            width: 24px;
+                            width: 40px;
                             margin: 0 0 0 0;
-                            top: -5px;
+                            top: 0;
                           }
                         }                         
                         
-                        .map .svgbubble-fault {
-                            width: 16px;
-                            height: 32px;
+                        .map .svgbubble-well1 {
+                            width: 30px;
+                            height: 60px;
                             margin: 0 0 0 4px; 
-                            animation: growAnimationFault ease 3s;
+                            animation: growAnimationWell1 ease 2s;
                             top: -10px;
                         } 
 
-                        @keyframes growAnimationFault {
+                        @keyframes growAnimationWell1 {
                           0% {
                             width: 0;
-                            margin: 0 0 0 10px;
+                            margin: 0 0 0 18px;
                             top: 0;
                           }
                           100% {
-                            width: 16px;
+                            width: 30px;
                             margin: 0 0 0 4px;
                             top: -10px;
                           }
@@ -122,7 +124,6 @@
                             font-size: .75rem;
                             font-weight: bold;
                             line-height: .85rem;
-                            margin: 0;
                             padding: 4px 10px;
                             background-color: #f9f9f9;
                             border: 1px solid #000;
@@ -135,41 +136,60 @@
                             height: 5%;
                         }
 
-                        .code-som {
-                            bottom: 79.9282%;
-                            left: 50.5994%;
+                        .code-well2 {
+                            bottom: 66.0022%;
+                            left: 61.4594%;
                         }
 
-                        .code-fault {
-                            bottom: 65.858%;
-                            left: 32.716%;
+                        .code-well2 p {
+                          margin: 0 0 -17px 0;
                         }
 
-                        .code-facies {
-                            bottom: 70.2392%;
-                            left: 45.4641%;
+                        .code-well1 {
+                            bottom: 87.028%;
+                            left: 34.986%;
+                        }
+
+                        .code-well1 p {
+                          margin: 0 0 -1px 0;
+                        }
+
+                        .code-well3 {
+                            bottom: 36.8112%;
+                            left: 77.4641%;
+                        }
+
+                        .code-well3 p {
+                          margin: 0 0 -23px 0;
+                        }
+
+                        .code-well4 {
+                            bottom: 78.1192%;
+                            left: 23.7991%;
+                        }
+
+                        .code-well4 p {
+                          margin: 0 0 -28px 0;
                         }
                     </style>
-                    <div class="map"><img src="images/3D-view-of-fault-and-channel.jpg">
-                        <div class="rpin code-som">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-som" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 4: 189 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 4: 189 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                    <div class="map"><img src="images/geo-potential-wells-sticks.png" width="667">
+                        <div class="rpin code-well2">
+                          <p><a href="y.php">Proposed Well 2</a></p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-well2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 4: 189 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke="#bbb" stroke-width=".8" fill="currentColor" /></svg>
                         </div>
-                        <div class="rpin code-fault">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-fault" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 1: 52 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>  
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 1: 52 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                        <div class="rpin code-well1">
+                          <p><a href="y.php">Proposed Well 1</a></p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-well1" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 1: 52 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke="#bbb" stroke-width="1" fill="currentColor" /></svg>
                         </div>
-                        <div class="rpin code-facies">
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-facies" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke-width="0" fill="currentColor" /></svg>
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus-vertical svgline" width="24" height="24" viewBox="0 0 24 48" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5v14" /></svg>
+                        <div class="rpin code-well3">
+                          <p><a href="y.php">Proposed Well 3</a></p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-well3" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke="#bbb" stroke-width=".6" fill="currentColor" /></svg>
                         </div>
+                        <div class="rpin code-well4">
+                          <p><a href="y.php">Proposed Well 4</a></p>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-droplet-filled svgbubble svgbubble-well4" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" data-toggle="tooltip" data-placement="top" title="Channel 2: 2052 MBEQ"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" stroke="#bbb" stroke-width=".5" fill="currentColor" /></svg>
+                        </div>                        
                     </div>
-                    <script>
-                        $(document).ready(function(){
-                            $('[data-toggle="tooltip"]').tooltip(); 
-                        });
-                    </script>              
-                    */ ?>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -209,7 +229,11 @@
           show: false,
         },
         animations: {
-          enabled: false
+          enabled: true,
+          animateGradually: {
+            enabled: true,
+            delay: 400
+          },
         },
       },
       dataLabels: {
@@ -272,7 +296,7 @@
       labels: [
         'Year 0', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5'
       ],
-      colors: [tabler.getColor("primary"), tabler.getColor("purple"), tabler.getColor("success"), tabler.getColor("info")],
+      colors: [tabler.getColor("azure"), tabler.getColor("red"), "#ffee00", tabler.getColor("purple")],
       legend: {
         show: true,
         position: 'bottom',
@@ -319,19 +343,19 @@
       <tr>
         <td>Proposed Well 2</td>
         <td class="text-secondary">
-          87
+          60
         </td>
       </tr>      
       <tr>
         <td>Proposed Well 3</td>
         <td class="text-secondary">
-          189
+          67
         </td>
       </tr>       
       <tr>
         <td>Proposed Well 4</td>
         <td class="text-secondary">
-          110
+          75
         </td>
       </tr>                  
     </tbody>
