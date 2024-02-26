@@ -31,29 +31,7 @@
                 </div>
 
 
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title mb-2">Progress <!-- <span class="card-subtitle">Processing in Cloud</span> -->
-                    <span class="status status-success pull-right">
-                      <span class="status-dot status-dot-animated"></span>
-                        Processing Complete
-                      </span>
-                    </h3>
 
-                    <div class="progress mt-3 mb-2">
-  <div class="progress-bar" style="width: 100%" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="100% Complete">
-    <span class="visually-hidden">100% Complete</span>
-  </div>
-</div>
-
-                    <a href="d3a.php" class="btn btn-success btn-sm mt-2">Show Results</a>  
-                  </div>
-                </div>  
 
                 <div class="card mb-3">
                   <!-- 
@@ -93,7 +71,7 @@
                       <li class="step-item">Select Location: Gulf of Mexico</li>
                       <li class="step-item">Select Data Set: Stacked Seisimic Volume</li>
                       <li class="step-item">Select Application: View Dataset</li>
-                      <li class="step-item">Select Parameters: Defaults</li>
+                      <li class="step-item">Select Parameters: Amplitude Scale Change</li>
                       <li class="step-item active">View Result</li>
                     </ul>
                   </div>
@@ -117,10 +95,10 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
-                    <p><img src="images/seismic-image-d1.png"></img></p>
+                    <p><img src="images/seismic-image-d4.png"></img></p>
                   </div>
                   <div class="card-footer">
-                  <a href="#" class="btn btn-primary btn-sm">View Larger Version</a>
+                  <a href="d4.php" class="btn btn-primary btn-sm">View Larger Version</a>
                   <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
 
