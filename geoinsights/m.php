@@ -150,10 +150,11 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <p class="drag"><a class="btn btn-default dragItem">Recipe 1</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Recipe 2</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Recipe 3</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Recipe 4</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Plio-Peleistocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Shallow Mioscene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Middle Mioscene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Deep Mioscece</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Wilcox</a></p>
             </div>
           </div>
         </div>

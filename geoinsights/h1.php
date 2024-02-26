@@ -168,19 +168,22 @@
 <a href="h2.php" class="btn btn-success btn-sm mt-1">Select Fans</a> 
 <a href="h2.php" class="btn btn-success btn-sm mt-1">Select Sand Bar</a> 
 <a href="h2.php" class="btn btn-success btn-sm mt-1">Select Channels &amp; Fans</a>
-<br>
+
+
+  
+  <div class="mb-3 mt-3">
+    <label class="form-label required">Size Threshold in MBEQ</label>
+    <input type="text" class="form-control" value="50" autocomplete="off"/>
+  </div>
+     
+
 <a href="h2.php" class="btn btn-info btn-sm mt-1 disabled">Apply & Run</a> <span class="badge bg-red-lt">Select Model(s) Before Proceeding</span>
                   </div>
 
     </div>
 
-
+<!--
               <div class="card mb-3">
-                  <!-- 
-                  <div class="card-header">
-                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
-                  </div>
-                  -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Model</h3>
                     
@@ -202,6 +205,7 @@
 
 
                 </div>
+                      -->
 
     <!-- AI Prompt -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />

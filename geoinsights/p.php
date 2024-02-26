@@ -74,7 +74,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Selection: Calculate the PCA and SOM with Geobodies from Recipe
+                  Current Selection: Calculate the PCA and SOM with Geobodies using Middle Mioscene Recipe
                   </div>     
     </div>
 

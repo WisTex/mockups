@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/crosssection2.png"></img></p>
+                    <p><img src="images/crosssection2a.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -56,19 +56,14 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel 1</td>
+        <td>Mioscene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
+    
       <tr>
-        <td>Channel 2</td>
-        <td class="text-secondary">
-          80
-        </td>
-      </tr>      
-      <tr>
-        <td>Channel 4</td>
+        <td>Mioscene 2</td>
         <td class="text-secondary">
           110
         </td>
@@ -80,7 +75,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Selection: Well Logs Cross Section
+                    Current Prompt: Show me the mioscene sand that these wells are producing.
                   </div>
                   <div class="card-footer">
   <a href="w.php" class="btn btn-success btn-sm mb-1">Go Back to Selected Data</a>
@@ -103,14 +98,7 @@
       </a>
     </fieldset>  
                 
-    <fieldset class="form-fieldset">
-  
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                    
+                 
 
 
                 

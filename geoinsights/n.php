@@ -14,7 +14,7 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
+                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Geobodies</span></h3> 
                     <p><img src="images/geo-all-geobodies.png" width="667"></img></p>
                   </div>
                   <div class="card-footer">
@@ -74,7 +74,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Selection: Calculate the PCA and SOM with Geobodies from Recipe
+                    Current Selection: Calculate the PCA and SOM with Geobodies using Middle Mioscene Recipe
                   </div>                
                   <!--  
                   <div class="card-footer">
