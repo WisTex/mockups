@@ -3,7 +3,8 @@
         <div class="page-body">
           <div class="container-xl">
             <div class="row row-cards">
-              <div class="col-lg-4">
+
+              <div class="col-lg-3">
                 <div class="card mb-3">
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-3">
@@ -60,7 +61,7 @@
               </div>
               
               
-              <div class="col-lg-8">
+              <div class="col-lg-9">
 
 
 
