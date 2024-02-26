@@ -14,7 +14,7 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
+                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Wells</span></h3> 
                     <p><img src="images/geobodies4.png" width="667"></img></p>
                   </div>
                   <div class="card-footer">

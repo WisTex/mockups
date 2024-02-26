@@ -15,7 +15,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Channel and Fan</span></h3> 
-                    <p><img src="images/crosssection1.png"></img></p>
+                    <p><img src="images/crosssection1a.png"></img></p>
                   </div>
                   <div class="card-footer">
                   <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
@@ -57,21 +57,16 @@
     </thead>
     <tbody>
       <tr>
-        <td>Channel 1</td>
+        <td>Mioscene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
+
       <tr>
-        <td>Channel 2</td>
+        <td>Mioscene 2</td>
         <td class="text-secondary">
-          2052
-        </td>
-      </tr>      
-      <tr>
-        <td>Channel 4</td>
-        <td class="text-secondary">
-          189
+          110
         </td>
       </tr>            
     </tbody>
@@ -83,10 +78,14 @@
                   <div class="card-footer">
                     Current Prompt: Request a cross section from west to east.
                   </div>       
+                  <!--
                   <div class="card-footer">
                     <a href="t.php" class="btn btn-success btn-sm">Well Log Cross Section</a>
                   </div>       
-                  
+    --> 
+    <div class="card-footer">
+  <a href="w.php" class="btn btn-success btn-sm mb-1">Go Back to Selected Data</a>
+                  </div>                  
     </div>
 
 
@@ -99,20 +98,13 @@
         <label class="form-label required">AI Prompt</label>
         <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
       </div>
-      <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
+      <a href="s1.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
     </fieldset>  
                 
-    <fieldset class="form-fieldset">
-  
-  <div class="mb-3">
-    <label class="form-label required">Size Threshold</label>
-    <input type="text" class="form-control" value="50" autocomplete="off"/>
-  </div>
-  <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
-</fieldset>                   
+            
 
 
                 
