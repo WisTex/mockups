@@ -15,7 +15,9 @@
                         <h3 class="lh-1">Select Location</h3>
                       </div>
                     </div>
-                    <p><img src="./assets/img/DetailedWorldMap.webp"></img></p>
+                    <!--
+                    <p><img src="./assets/img/DetailedWorldMap.webp"></img></p> -->
+                    <p>You must select a region to continue.</p>
                     
                     
                     
@@ -71,7 +73,7 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Seismic Viewer<span class="card-subtitle">Visualize</span></h3> 
+                    <h3 class="card-title mb-2">Select Location<span class="card-subtitle"></span></h3> 
                     <p><img src="./assets/img/DetailedWorldMap.webp"></img></p>
                     <!--
                     <div style="background-color:#ddd; width:95%; position:absolute; left:0; top:60px; bottom:20px; right: 0; font-size:1.5rem; color:#333; text-align:center; margin-left: auto; margin-right: auto;">
