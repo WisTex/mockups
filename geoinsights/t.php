@@ -75,7 +75,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Prompt: Show me the mioscene sand that these wells are producing.
+                    Current Prompt: Show me the middle mioscene producing sands.
                   </div>
                   <div class="card-footer">
   <a href="w.php" class="btn btn-success btn-sm mb-1">Go Back to Selected Data</a>
