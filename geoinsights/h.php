@@ -134,11 +134,12 @@
                   </div>
                   <div class="card-footer">
                   <a href="a.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
+                  <!--
                   <a href="h1.php" class="btn btn-primary btn-sm">SOM Recipes</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Fault Models</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Facies Models</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Production Profile Models</a>
-
+                      -->
                   <a href="c.php" class="btn btn-warning btn-sm">Change Data Set</a>
                   </div>
 
@@ -163,10 +164,14 @@
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Model</h3>
                     
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">SOM Recipes</a> <br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Fault Models</a><br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Facies Models</a><br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Production Profile Models</a>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">SOM Recipes</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Fault Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Facies Middle Mioscene Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Production Profile Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Lower Mioscene Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Hackberry Formation Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">MAFLA Carbonate Facies</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Wilcox Models</a><br>
                     <p class="mt-1"><small>Note: Application runs with new models when selected.</small></p>
 
                   </div>
