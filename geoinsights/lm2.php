@@ -5,29 +5,32 @@
             <div class="row row-cards">
               <div class="col-lg-9">
 
-                <div class="text-center">
-                  <p><img src="images/paradise1a.png"></img></p>
-                </div>
-              
-
               <!--
+                <div class="text-center">
+                  <p><img src="images/paradise2a.png"></img></p>
+                </div>
+    -->
+
+              
               <div class="card mb-3" style="min-height: 500px;">
 
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle">Gulf of Mexico</span></h3> 
-                    <p><img src="images/paradise1a.png"></img></p>
+                    <h3 class="card-title mb-2">ThoughtFlow Builder <span class="card-subtitle"></span></h3> 
+                    <p><img src="images/paradise2a.png"></img></p>
                   </div>
                   <div class="card-footer">
-                  <a href="#" class="btn btn-primary btn-sm">Back to Dashboard</a>
-                  <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
+                  <a href="m.php" class="btn btn-warning btn-sm">Use This ThoughtFlow</a>
+                  <a href="lm1.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
+
+                  <!-- <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" /><path d="M11 13l9 -9" /><path d="M15 4h5v5" /></svg>
 
                   </a>                  
-                  <a href="#" class="btn btn-warning btn-sm">Change Data Set</a>
+                  <a href="#" class="btn btn-warning btn-sm">Change Data Set</a> -->
                   </div>
 
                 </div>
-              -->
+              
 
 
                 
@@ -71,10 +74,9 @@
                   </div>
 
                   <div class="card-footer bg-cyan-lt">
-                    <a href="lm2.php" class="btn btn-warning btn-sm mb-1">Start Building</a>  
                     <a href="lm2.php" class="btn btn-primary btn-sm mb-1">Build ThoughtFlow</a>  
                     <a href="m.php" class="btn btn-primary btn-sm mb-1">Build Application</a>
-                    <!-- <a href="m.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a> -->
+                    <a href="m.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a>
                   </div>   
 
                 </div>
