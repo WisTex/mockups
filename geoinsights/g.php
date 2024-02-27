@@ -82,7 +82,7 @@
 
 
 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-info"></div>
                   <!--
                   <div class="card-header">
@@ -90,7 +90,10 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">PCA <span class="card-subtitle pull-right">Geophysical Insights</span></h3> 
+                    <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    </span>PCA 
+                  </h2> 
                     <p>Calculates PCA.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
@@ -108,7 +111,7 @@
                 </div>
                 
 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-info"></div>
                   <!--
                   <div class="card-header">
@@ -116,8 +119,10 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Faults <span class="card-subtitle pull-right">Geophysical Insights</span></h3> 
-                    <p>Calculates Faults.</p>
+                    <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    </span>CNN Faults </h2> 
+                    <p>Calculates CNN Faults.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
                       Current Location<br>
@@ -133,23 +138,25 @@
 
                 </div>                
 
-                <div class="card mb-3" style="min-height: 220px;">
-                <div class="card-status-top bg-purple"></div>
+                <div class="card mb-3" style="min-height: 245px;">
+                <div class="card-status-top bg-danger"></div>
                   <!--
                   <div class="card-header">
                     <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Client Presentation <span class="card-subtitle pull-right">Custom</span></h3> 
-                    <p>Calculations for Monday's client call.</p>
+                    <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Exxon"></span>
+                    </span>True Amplitude Depth Migration </h2> 
+                    <p>True amplitude depth migration.</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
-                      Location: Gulf of Mexico<br>
+                      Current Location<br>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
-                      Data Set: Stacked Seismic Volume</p>
+                      Current Data Set</p>
                   </div>
-                  <div class="card-footer bg-purple-lt">
+                  <div class="card-footer bg-danger-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Edit</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a>
@@ -169,7 +176,7 @@
 
 
 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-info"></div>
                   <!--
                   <div class="card-header">
@@ -177,7 +184,9 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">SOM <span class="card-subtitle pull-right">Geophysical Insights</span></h3> 
+                    <h2 class="!card-title mb-2">SOM <span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./images/shell.jpg))" alt="Shell"></span>
+                    </span></h2> 
                     <p>Calculates SOM.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
@@ -197,7 +206,7 @@
                 </div>
                 
                 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-yellow"></div>
                   <!--
                   <div class="card-header">
@@ -205,14 +214,16 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Gathers <span class="card-subtitle pull-right">Shell</span></h3> 
-                    <p>Calculates Gathers.</p>
+                    <h2 class="!card-title mb-2">NN Reservoir Charactistics <span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Shell"></span>
+                    </span></h2> 
+                    <p>Neural Network Chararacterization.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
-                      Location: Gulf of Mexico
+                      Current Location
                       <br>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
-                      Data Set: Shell Gathers</p>
+                      Current Data Set</p>
                   </div>
                   <div class="card-footer bg-yellow-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
@@ -224,23 +235,27 @@
 
                 </div>
 
-                <div class="card mb-3" style="min-height: 220px;">
-                <div class="card-status-top bg-purple"></div>
+                <div class="card mb-3" style="min-height: 245px;">
+                <div class="card-status-top bg-vk"></div>
                   <!--
                   <div class="card-header">
                     <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Find Proposed Wells <span class="card-subtitle pull-right">Custom</span></h3> 
-                    <p>Identity possible wells with MBEQ 50 or higher.</p>
+                    <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Apache"></span>  
+                    </span>
+                    Austin Chaulk Fracture Characteristic 
+                  </h2> 
+                    <p>Calculates fracture characteristics.</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
                       Current Location<br>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
                       Current Data Set</p>
                   </div>
-                  <div class="card-footer bg-purple-lt">
+                  <div class="card-footer bg-vk-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Edit</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a>
@@ -261,7 +276,7 @@
 
 
 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-info"></div>
                   <!--
                   <div class="card-header">
@@ -269,7 +284,9 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Geobodies <span class="card-subtitle pull-right">Geophysical Insights</span></h3> 
+                    <h2 class="!card-title mb-2">Geobodies <span class="!card-subtitle pull-right">
+                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    </span></h2> 
                     <p>Calculates Geobodies.</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
@@ -288,7 +305,7 @@
                 </div>
                 
 
-                <div class="card mb-3" style="min-height: 220px;">
+                <div class="card mb-3" style="min-height: 245px;">
                 <div class="card-status-top bg-info"></div>
                   <!--
                   <div class="card-header">
@@ -296,7 +313,10 @@
                   </div>
                   -->
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Data Selector <span class="card-subtitle pull-right">Geophysical Insights</span></h3> 
+                    <h2 class="!card-title mb-2">Data Selector <span class="!card-subtitle pull-right">
+                        <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                      </span>
+                    </h2> 
                     <p>Calculates PCA and SOM.</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
@@ -315,10 +335,13 @@
 
                 </div>                
 
-                <div class="card mb-3" style="min-height: 220px;">
-                <div class="card-status-top bg-info"></div>
+                <div class="card mb-3" style="min-height: 245px;">
+                <div class="card-status-top bg-red"></div>
                   <div class="card-body">
-                    <h3 class="card-title mb-2">Seismic Viewer <span class="card-subtitle pull-right">Geophsyical Insights</span></h3> 
+                    <h2 class="!card-title mb-2"><span class="!card-title !card-subtitle pull-right">
+                      <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Equinor"></span>
+                    </span>
+                    Custom Seismic Viewer </h2> 
                     <p>View seismic data.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
@@ -327,7 +350,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
                       Current Data Set</p>
                   </div>
-                  <div class="card-footer bg-info-lt">
+                  <div class="card-footer bg-red-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a>
                   <a href="h.php" class="btn btn-info btn-sm pull-right">Run</a>
