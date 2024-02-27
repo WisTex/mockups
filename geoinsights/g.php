@@ -91,10 +91,10 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/geophysical_insights_logo.jpg)" alt="Geoinsights"></span>
                     </span>PCA 
                   </h2> 
-                    <p>Calculates PCA.</p>
+                    <p>Geophysical Insights</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
                       Current Location<br>
@@ -120,8 +120,8 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
-                    </span>CNN Faults </h2> 
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/geophysical_insights_logo.jpg)" alt="Geoinsights"></span>
+                    </span>Geophsyical Insights</h2> 
                     <p>Calculates CNN Faults.</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
@@ -147,9 +147,9 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Exxon"></span>
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/exxon.png)" alt="Exxon"></span>
                     </span>True Amplitude Depth Migration </h2> 
-                    <p>True amplitude depth migration.</p>
+                    <p>Exxon / Mobile</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
                       Current Location<br>
@@ -185,9 +185,9 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2">SOM <span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./images/shell.jpg))" alt="Shell"></span>
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/geophysical_insights_logo.jpg)" alt="Geoinsights"></span>
                     </span></h2> 
-                    <p>Calculates SOM.</p>
+                    <p>Geophsyical Insights</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
                       Current Location
@@ -215,7 +215,7 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2">NN Reservoir Charactistics <span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Shell"></span>
+                    <span class="avatar avatar-md bg-white" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/shell1.png)" alt="Shell"></span>
                     </span></h2> 
                     <p>Neural Network Chararacterization.</p>
                     <p>
@@ -236,7 +236,7 @@
                 </div>
 
                 <div class="card mb-3" style="min-height: 245px;">
-                <div class="card-status-top bg-vk"></div>
+                <div class="card-status-top bg-yellow"></div>
                   <!--
                   <div class="card-header">
                     <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
@@ -244,18 +244,18 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Apache"></span>  
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/apache.png)" alt="Apache"></span>
                     </span>
                     Austin Chaulk Fracture Characteristic 
                   </h2> 
-                    <p>Calculates fracture characteristics.</p>
+                    <p>Apache</p>
                     <p>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>  
                       Current Location<br>
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
                       Current Data Set</p>
                   </div>
-                  <div class="card-footer bg-vk-lt">
+                  <div class="card-footer bg-yellow-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Edit</a>
                   <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a>
@@ -285,7 +285,7 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2">Geobodies <span class="!card-subtitle pull-right">
-                    <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/geophysical_insights_logo.jpg)" alt="Geoinsights"></span>
                     </span></h2> 
                     <p>Calculates Geobodies.</p>
                     <p>
@@ -314,7 +314,7 @@
                   -->
                   <div class="card-body">
                     <h2 class="!card-title mb-2">Data Selector <span class="!card-subtitle pull-right">
-                        <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Geoinsights"></span>
+                    <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/geophysical_insights_logo.jpg)" alt="Geoinsights"></span>
                       </span>
                     </h2> 
                     <p>Calculates PCA and SOM.</p>
@@ -339,10 +339,10 @@
                 <div class="card-status-top bg-red"></div>
                   <div class="card-body">
                     <h2 class="!card-title mb-2"><span class="!card-title !card-subtitle pull-right">
-                      <span class="avatar avatar-md" style="background-image: url(background-image: url(./static/wistex/scott.png))" alt="Equinor"></span>
+                    <span class="avatar avatar-md bg-white" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/equinor-logo.png)" alt="Equinor"></span>
                     </span>
                     Custom Seismic Viewer </h2> 
-                    <p>View seismic data.</p>
+                    <p>Equinor</p>
                     <p>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" /><path d="M9 4v13" /><path d="M15 7v5.5" /><path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" /><path d="M19 18v.01" /></svg>
                       Current Location
