@@ -251,7 +251,7 @@
                     <h2 class="!card-title mb-2"><span class="card-subtitle pull-right mt-1">
                     <span class="avatar avatar-md" style="box-shadow: 0 0 0px rgba(0,0,0,0.8); background-image: url(images/apache.png)" alt="Apache"></span>
                     </span>
-                    Austin Chaulk Fracture Characteristic 
+                    Austin Chaulk Fracture Identification 
                   </h2> 
                     <p>Apache</p>
                     <p>
