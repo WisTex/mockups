@@ -90,9 +90,18 @@
                         .code-test4 {
                             bottom: 50%;
                             left: 60%;
+                        }   
+                        .code-processing {
+                            bottom: 45%;
+                            left: 50%;
                         }                        
                     </style>
                     <div class="map"><img src="images/Gulf-of-Mexico-Map.png">
+
+                    <div class="rpin code-processing" data-toggle="tooltip" data-placement="top" title="5 results found">
+<!--                             <p><a href="h1.php">SOM Recipes</a></p> -->
+                            <div class="spinner-border text-white bg-warning"></div>
+                        </div>                    
                     <!--
                         <div class="rpin code-som" data-toggle="tooltip" data-placement="top" title="5 results found">
                             <p><a href="h1.php">SOM Recipes</a></p>
@@ -141,8 +150,9 @@
                   <a href="h1.php" class="btn btn-primary btn-sm">Fault Models</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Facies Models</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Production Profile Models</a>
-                      -->
                   <a href="c.php" class="btn btn-warning btn-sm">Change Data Set</a>
+                      -->
+                  
                   </div>
 
                 </div>
@@ -166,7 +176,7 @@
                   <div class="card-body">
                     <h3 class="card-title mb-2">Current Action</h3>
                     
-                <p>AI Prompt: Do you want to apply this to the entire U.S. Deep Water Gulf of Mexico?</p>
+                <p>AI Prompt: Apply this to the entire U.S. Deep Water Gulf of Mexico.</p>
 
                   </div>
                   <div class="ribbon bg-azure">
