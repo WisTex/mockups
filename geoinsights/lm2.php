@@ -20,6 +20,7 @@
                   </div>
                   <div class="card-footer">
                   <a href="m.php" class="btn btn-warning btn-sm">Use This ThoughtFlow</a>
+                  <a href="m.php" class="btn btn-primary btn-sm">Change ThoughtFlow</a>  
                   <a href="lm1.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
 
                   <!-- <a href="#" class="btn btn-primary btn-sm">View Full Screen    &nbsp;
@@ -75,6 +76,7 @@
 
                   <div class="card-footer bg-cyan-lt">
                     <a href="m.php" class="btn btn-warning btn-sm">Use This ThoughtFlow</a>  
+                    <a href="m.php" class="btn btn-primary btn-sm">Change ThoughtFlow</a>  
                     <!--
                     <a href="lm2.php" class="btn btn-primary btn-sm mb-1">Build ThoughtFlow</a>  
                     <a href="m.php" class="btn btn-primary btn-sm mb-1">Build Application</a> -->
