@@ -83,7 +83,7 @@
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
         
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Request a cross section from west to east.</textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Select 3 top producing well cross sections.</textarea>
       </div>
       <a href="s.php" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;

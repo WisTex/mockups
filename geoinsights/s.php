@@ -76,7 +76,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Prompt: Request a cross section from west to east.
+                    Current Prompt: Select 3 top producing well cross sections.
                   </div>       
                   <!--
                   <div class="card-footer">

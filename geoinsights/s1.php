@@ -76,7 +76,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Prompt: Request a cross section from west to east.
+                    Current Prompt: Select 3 top producing well cross sections.
                   </div>       
                   <!--
                   <div class="card-footer">
@@ -96,7 +96,7 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Show me the mioscene sand that these wells are producing.</textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Show me the middle mioscene producing sands.</textarea>
       </div>
       <a href="t.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;

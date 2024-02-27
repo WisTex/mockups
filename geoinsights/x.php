@@ -73,7 +73,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Prompt: Identify undrilled geobodies
+                    Channels Extracted.
                   </div>                  
 
     </div>

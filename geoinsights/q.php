@@ -76,7 +76,7 @@
 
 
                   <div class="card-footer">
-                    Current Prompt: I want to see wells with pay in the Miocene within the area outlined.
+                    Current Prompt: I want to see the existing wells with pay in the Middle Miocene within the area outlined.
                   </div>                  
     </div>
 

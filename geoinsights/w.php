@@ -74,7 +74,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Selection: Current Prompt: Calculate SOM pay Geobodies
+                    Channels Extracted.
                   </div>
     </div>
 

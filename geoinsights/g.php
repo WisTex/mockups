@@ -161,6 +161,7 @@
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Edit</a> -->
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a> -->
+                  <a href="h.php" class="btn btn-primary btn-sm">Customize</a>
                   <a href="h.php" class="btn btn-info btn-sm pull-right">Run</a>
                   
                   
@@ -230,6 +231,7 @@
                   <div class="card-footer bg-yellow-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a> -->
+                  <a href="h.php" class="btn btn-primary btn-sm">Customize</a>
                   <a href="h.php" class="btn btn-info btn-sm pull-right">Run</a>
                   
                   
@@ -261,6 +263,7 @@
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Edit</a> -->
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a> -->
+                  <a href="h.php" class="btn btn-primary btn-sm">Customize</a>
                   <a href="h.php" class="btn btn-info btn-sm pull-right">Run</a>
                   
                   
@@ -358,6 +361,7 @@
                   <div class="card-footer bg-red-lt">
                   <a href="h.php" class="btn btn-primary btn-sm">View</a>
                   <!-- <a href="h.php" class="btn btn-primary btn-sm">Duplicate</a> -->
+                  <a href="h.php" class="btn btn-primary btn-sm">Customize</a>
                   <a href="h.php" class="btn btn-info btn-sm pull-right">Run</a>
                   
                   
