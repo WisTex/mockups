@@ -76,7 +76,7 @@
                   -->
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Location<span class="card-subtitle"></span></h3> 
-                    <p><a href="map.php"><img src="./assets/img/DetailedWorldMap.webp"></img></a></p>
+                    <p><a href="b-map.php"><img src="assets/img/DetailedWorldMap.webp"></img></a></p>
                     <!--
                     <div style="background-color:#ddd; width:95%; position:absolute; left:0; top:60px; bottom:20px; right: 0; font-size:1.5rem; color:#333; text-align:center; margin-left: auto; margin-right: auto;">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-photo" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="width:25%;height:25%;margin-top:125px;color:#333;"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 8h.01" /><path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z" /><path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5" /><path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3" /></svg>
