@@ -158,9 +158,9 @@
           <div class="row">
             <div class="col-sm-6">
               <p class="drag"><a class="btn btn-default dragItem">Plio-Peleistocene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Shallow Mioscene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Middle Mioscene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Deep Mioscene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Shallow Miocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Middle Miocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem">Deep Miocene</a></p>
               <p class="drag"><a class="btn btn-default dragItem">Wilcox</a></p>
             </div>
           </div>
@@ -222,6 +222,8 @@
 
                   <a href="n.php" class="btn btn-primary btn-sm">Save</a>
                   <a href="n.php" class="btn btn-info btn-sm">Save &amp; Run</a>
+                  <!-- TODO: Dev Note -->
+                  -> Note to developer: After dragging "Middle Miocene" over, change background color and make bold.
                   <a href="n.php" class="btn btn-danger btn-sm pull-right">Delete</a>
                   </div>
 
@@ -232,7 +234,7 @@
                   (function() {
                     const appBuilderPlaceholderTxt = "Please drag an element from the left pane and drop it here.";
                     const applets = ['PCA', 'SOM', 'Geobodies', 'Faults'];
-                    const recipes = ['Plio-Peleistocene', 'Shallow Mioscene', 'Middle Mioscene', 'Deep Mioscene', 'Wilcox'];
+                    const recipes = ['Plio-Peleistocene', 'Shallow Miocene', 'Middle Miocene', 'Deep Miocene', 'Wilcox'];
                     const appendDropItem = function(dropzone, summaryTxt, itemHasChildren) {
                       let clonedDropItem = $('.drop-item')[0].cloneNode(true);
                       if (itemHasChildren) {

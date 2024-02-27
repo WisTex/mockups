@@ -145,6 +145,7 @@
                   </div>
                   <div class="card-footer">
                   <a href="a.php" class="btn btn-primary btn-sm">Back to Dashboard</a>
+                  <a href="a.php" class="btn btn-primary btn-sm">View Job List</a>
                   <!--
                   <a href="h1.php" class="btn btn-primary btn-sm">SOM Recipes</a>
                   <a href="h1.php" class="btn btn-primary btn-sm">Fault Models</a>
@@ -211,9 +212,52 @@
                     <div class="progress progress-lg mt-3 mb-2">
                       <div class="progress-bar progress-bar-indeterminate"></div>
                     </div>
+                    
                     <a href="d3.php" class="btn btn-ghost-warning btn-sm mt-2">Processing...</a>  
+                    
                   </div>
                 </div>  
+
+                <div class="alert alert-warning bg-warning-lt" role="alert">
+  <h4 class="alert-title">Estimated Processing Time: 24 Hours</h4>
+  <div class="text-secondary">By adding 100 GPUs<br>the job can be completed in 1 hour.</div>
+</div>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Level</th>
+      <th scope="col">GPUs</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-primary">
+      <th scope="row">Default <span class="status status-primary">Selected</span></th>
+      <td>2 GPUs</td>
+      <td>24 hours</td>
+    </tr>
+    <tr class="table">
+      <th scope="row">Fast</th>
+      <td>20 GPUs</td>
+      <td>5 hours</td>
+    </tr>
+    <tr class="table">
+      <th scope="row">Faster</th>
+      <td>100 GPUs</td>
+      <td>1 hour</td>
+    </tr>
+    <tr class="table">
+      <th scope="row">Fastest</th>
+      <td>1000 GPUs</td>
+      <td>5 minutes</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<p><a href="#" class="btn btn-primary btn-sm">Change Processing Level</a></p>
 
     <!-- AI Prompt -->
     <!--

@@ -321,7 +321,7 @@
 <div class="alert alert-success bg-success-lt" role="alert">
   <h4 class="alert-title">Suggested AI Prompt</h4>
   <a href="z.php" class="btn btn-info btn-sm pull-right">Run</a>
-  <div class="text-secondary">Do you want to apply this to the entire U.S. Deep Water Gulf of Mexico?</div>
+  <div class="text-secondary">Do you want to apply this ThoughtFlow to the entire U.S. Deep Water Gulf of Mexico?</div>
   
 </div>
 
