@@ -74,8 +74,10 @@
                   </div>
 
                   <div class="card-footer bg-cyan-lt">
+                    <a href="m.php" class="btn btn-warning btn-sm">Use This ThoughtFlow</a>  
+                    <!--
                     <a href="lm2.php" class="btn btn-primary btn-sm mb-1">Build ThoughtFlow</a>  
-                    <a href="m.php" class="btn btn-primary btn-sm mb-1">Build Application</a>
+                    <a href="m.php" class="btn btn-primary btn-sm mb-1">Build Application</a> -->
                     <a href="m.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a>
                   </div>   
 
