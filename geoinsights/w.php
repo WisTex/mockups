@@ -55,14 +55,14 @@
     </thead>
     <tbody>
       <tr>
-        <td>Mioscene 1</td>
+        <td>Miocene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
 
       <tr>
-        <td>Mioscene 2</td>
+        <td>Miocene 2</td>
         <td class="text-secondary">
           110
         </td>

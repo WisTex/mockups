@@ -44,6 +44,7 @@
                       <li class="step-item">Select Location: Gulf of Mexico</li>
                       <li class="step-item active">Select Data Set</li>
                       <li class="step-item">Select Application</li>
+                      <li class="step-item">Select Recipes &amp; Models</li>
                       <li class="step-item">Select Parameters</li>
                       <li class="step-item">View Result</li>
                     </ul>

@@ -57,14 +57,14 @@
     </thead>
     <tbody>
       <tr>
-        <td>Mioscene 1</td>
+        <td>Miocene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
 
       <tr>
-        <td>Mioscene 2</td>
+        <td>Miocene 2</td>
         <td class="text-secondary">
           110
         </td>
@@ -96,7 +96,7 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Show me the middle mioscene producing sands.</textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">Show me the middle Miocene producing sands.</textarea>
       </div>
       <a href="t.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
