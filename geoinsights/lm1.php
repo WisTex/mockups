@@ -62,16 +62,17 @@
 
                   <div class="card-body">
 
-                    <h3 class="card-title text-cyan">Active Session <span class="card-subtitle pull-right">Cloud Processing</span></h3>
+                    <h3 class="card-title">Builder <span class="card-subtitle pull-right">Apps & ThoughtFlows</span></h3>
 
-                    <p class="text-warning"><b>You do not currenty have an active session.</b></p>
-                    <p>Please start by selecting a location, or resuming a previous session.</p>
+                    <p class="text-warning"><b>Note: Using current location and data set.</b></p>
+                    <p>Your Application or ThoughtFlow will use the currently selected location and data set when run, 
+                      unless you change it in settings.</p>
 
                   </div>
 
                   <div class="card-footer bg-cyan-lt">
-                    <a href="a.php" class="btn btn-warning btn-sm mb-1">Select Location</a>  
-                    <a href="a.php" class="btn btn-primary btn-sm mb-1">Resume Session</a>
+                    <a href="a.php" class="btn btn-primary btn-sm mb-1">Build ThoughtFlow</a>  
+                    <a href="a.php" class="btn btn-primary btn-sm mb-1">Build Application</a>
                     <a href="a.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a>
                   </div>   
 
@@ -87,9 +88,9 @@
 
                   <div class="card-body">
                     <ul class="steps steps-counter steps-vertical">
-                      <li class="step-item active">Select Location</li>
-                      <li class="step-item">Select Data Set</li>
-                      <li class="step-item">Select Application</li>
+                      <li class="step-item">Select Location: Gulf of Mexico</li>
+                      <li class="step-item">Select Data Set: Stacked Seismic Volume</li>
+                      <li class="step-item active">Select Application</li>
                       <li class="step-item">Select Recipes &amp; Models</li>
                       <li class="step-item">Select Parameters</li>
                       <li class="step-item">View Result</li>
