@@ -87,7 +87,18 @@
 
           <style>
             .dragItem {
-              padding: 15px 45px;
+              padding: 15px 105px 15px 10.5px;
+              background: linear-gradient(to right, #213856, #213856 2rem, #fff 1rem, #fff 100%);
+              filter: drop-shadow(1px 2px 2px #bbb);
+              border-color: #b5b5b5;
+            }
+
+            .dragItem:hover {
+              background: linear-gradient(to right, #213856, #213856 2rem, #f5f8fc 1rem, #f5f8fc 100%);
+            }
+
+            .btn.dragItem .icon {
+              margin: 0 15px 0 -4px;
             }
             
             #dropzone {
@@ -111,27 +122,49 @@
             .drop-item, .drop-item-child {
               cursor: pointer;
               margin-bottom: 10px;
-              background-color: rgb(255, 255, 255);
+              background: linear-gradient(to right, #213856, #213856 4rem, rgb(255, 255, 255) 1rem, rgb(255, 255, 255) 100%);
               padding: 35px 20px;
               border-radius: 3px;
-              border: 1px solid rgb(204, 204, 204);
               position: relative;
+              text-indent: 8%;
+              font-size: 1rem;
+              filter: drop-shadow(2px 2px 2px #999);
+            }
+
+            .drop-item:hover, .drop-item-child:hover {
+              /*filter: none;
+              box-shadow: inset gray 0px 0px 30px -12px;*/
             }
 
             .drop-item-child {
-              background-color: rgba(0, 84, 166, 0.04);
-              border: 1px solid rgb(204, 204, 204);
+              background: linear-gradient(to right, #3d5a80, #3d5a80 4rem, #f5f9ff 1rem, #f5f9ff 100%);
               left: 2%;
               width: 98%;
             }
 
             .drop-item .remove, .drop-item-child .remove {
               position: absolute;
-              top: 24px;
-              right: 14px;
+              top: 30px;
+              right: 18px;
             }
 
             .drop-item .remove svg, .drop-item-child .remove svg {
+              margin: 0;
+            }
+
+            .drop-item-icon {
+              margin: 0 0 5px 0;
+            }
+
+            .drop-item-icon svg {
+              width: 30px;
+              height: 100%;
+              margin: 0 30px 0 -8.25%;
+            }
+
+            .drop-item-icon svg:nth-child(2) {
+              width: 24px;
+              height: 100%;
               margin: 0;
             }
           </style>
@@ -139,10 +172,10 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p class="drag"><a class="btn btn-default dragItem">PCA</a></p>
-                <p class="drag"><a class="btn btn-default dragItem">SOM</a></p>
-                <p class="drag"><a class="btn btn-default dragItem">Geobodies</a></p>
-                <p class="drag"><a class="btn btn-default dragItem">Faults</a></p>
+                <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-app-window" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>PCA</a></p>
+                <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-app-window" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>SOM</a></p>
+                <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-app-window" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>Geobodies</a></p>
+                <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-app-window" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M6 8h.01" /><path d="M9 8h.01" /></svg>Faults</a></p>
               </div>
             </div>
           </div>
@@ -157,11 +190,11 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <p class="drag"><a class="btn btn-default dragItem">Plio-Peleistocene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Shallow Miocene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Middle Miocene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Deep Miocene</a></p>
-              <p class="drag"><a class="btn btn-default dragItem">Wilcox</a></p>
+              <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>Plio-Peleistocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>Shallow Miocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>Middle Miocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>Deep Miocene</a></p>
+              <p class="drag"><a class="btn btn-default dragItem"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-analyze" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" /><path d="M4 13a8.1 8.1 0 0 0 15 3" /><path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /></svg>Wilcox</a></p>
             </div>
           </div>
         </div>
@@ -222,8 +255,6 @@
 
                   <a href="n.php" class="btn btn-primary btn-sm">Save</a>
                   <a href="n.php" class="btn btn-info btn-sm">Save &amp; Run</a>
-                  <!-- TODO: Dev Note -->
-                  -> Note to developer: After dragging "Middle Miocene" over, change background color and make bold.
                   <a href="n.php" class="btn btn-danger btn-sm pull-right">Delete</a>
                   </div>
 
@@ -241,7 +272,7 @@
                         $(clonedDropItem).addClass('drop-item-child');
                       }
                       $(clonedDropItem).css('display', 'block');
-                      $(clonedDropItem).find('summary').text(summaryTxt);
+                      $(clonedDropItem).find('div').html(summaryTxt.replace('</svg>', '</svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-right-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6c0 -.852 .986 -1.297 1.623 -.783l.084 .076l6 6a1 1 0 0 1 .083 1.32l-.083 .094l-6 6l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002l-.059 -.002l-.058 -.005l-.06 -.009l-.052 -.01l-.108 -.032l-.067 -.027l-.132 -.07l-.09 -.065l-.081 -.073l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057l-.002 -12.059z" stroke-width="0" fill="currentColor" /></svg>'));
                       $(clonedDropItem).on('click', deleteDropItem);
                       dropzone.append(clonedDropItem);
                     };
@@ -252,10 +283,30 @@
                         appBuilder.html(appBuilderPlaceholderTxt);
                       }
                     };
-
+                    let currentBackground;
+                    
                     $('.drag').draggable({ 
                       appendTo: 'body',
-                      helper: 'clone'
+                      helper: 'clone',
+                      drag: function(e, ui) {
+                        $('.drop-item-child').each(function(){
+                          let mouseX = ui.position.left;
+                          let mouseY = ui.position.top;
+                          if (mouseX >= $(this).offset().left - 20 && mouseX <= $(this).offset().left + $(this).width() + 20 && mouseY >= $(this).offset().top - 35 && mouseY <= $(this).offset().top + $(this).height() + 35) {
+                            //console.log('The coordinates are within the element');
+                            $('.drop-item-child').css({
+                                'opacity': '.80', 
+                                'background': 'linear-gradient(to right, #4e658a, #4e658a 4rem, #e9eef5 1rem, #e9eef5 100%'
+                            });
+                          }
+                          else {
+                            $('.drop-item-child').css({
+                              'opacity': '1',
+                              'background': 'linear-gradient(to right, #3d5a80, #3d5a80 4rem, #f5f9ff 1rem, #f5f9ff 100%)'
+                            });
+                          }
+                        });
+                      }
                     });
                     $('#dropzone').html(appBuilderPlaceholderTxt);
                     $('#dropzone').droppable({
@@ -267,18 +318,22 @@
                         if (phPattern.test($(this).html())) {
                           $(this).html(($(this).html()).replace(phPattern, ""));
                         }
-                        if (ui.draggable.text() == recipes[2]) {
+                        let dragItemTxt = ui.draggable.text().trim();
+                        //console.log(ui.draggable.find('a').html());
+                        if (dragItemTxt == recipes[2]) {
                           $('.drop-item-child').each(function(){
-                            $(this).find('summary').text($(this).find('summary').text() + " (" + ui.draggable.text() + ")");
+                            $(this).find('div').html("<b>" + $(this).find('div').html() + " (" + dragItemTxt + ")</b>");
+                            $('.drop-item-child').css('opacity', '1');
+                            $('.drop-item-child').css('background', 'linear-gradient(to right, #3d5a80, #3d5a80 4rem, #e8f1ff 1rem, #e8f1ff 100%)');
                           });
                         }
                         else {
-                          appendDropItem($(this), ui.draggable.text(), false);
+                          appendDropItem($(this), ui.draggable.find('a').html(), false);
                         }
-                        if (ui.draggable.text() == applets[2]) {
+                        if (dragItemTxt == applets[2]) {
                           let itemChildren = applets.slice(0, 2);
                           for (let i=0; i<itemChildren.length; i++) {
-                            appendDropItem($(this), itemChildren[i], true);
+                            appendDropItem($(this), $('.dragItem').html().replace(/(\w+)$/, "") + itemChildren[i], true);
                           }                        
                         }
                       }
@@ -294,9 +349,7 @@
                 </script>
 
                 <div class="drop-item" style="display:none">
-                  <details>
-                    <summary></summary>
-                  </details>
+                  <div class="drop-item-icon"></div>
                   <button type="button" class="btn btn-danger btn-xs remove">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7l16 0" /><path d="M10 11l0 6" /><path d="M14 11l0 6" /><path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" /><path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" /></svg>
                   </button>
