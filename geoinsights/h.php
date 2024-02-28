@@ -168,10 +168,11 @@
                     <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Fault Models</a><br>
                     <a href="h1.php" class="btn btn-ghost-primary btn-sm">Middle Miocene Facies Models</a><br>
                     <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Production Profile Models</a><br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Lower Miocene Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Lower Miocene Fault Models</a><br>
                     <a href="h1.php" class="btn btn-ghost-primary btn-sm">Hackberry Formation Models</a><br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">MAFLA Carbonate Facies</a><br>
-                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Wilcox Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Wilcox Facies Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">MAFLA Carbonate Facies Models</a><br>
+                    <a href="h1.php" class="btn btn-ghost-primary btn-sm">Deep Water Fault Models</a><br>
                     <p class="mt-1"><small>Note: Application runs with new models when selected.</small></p>
 
                   </div>

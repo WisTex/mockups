@@ -68,7 +68,8 @@
                     <ul class="steps steps-counter steps-vertical">
                       <li class="step-item">Select Location: Gulf of Mexico</li>
                       <li class="step-item">Select Data Set: Stacked Seisimic Volume</li>
-                      <li class="step-item">Select Application: View Dataset</li>
+                      <li class="step-item">Select Application: Seismic Viewer</li>
+                      <li class="step-item">Select Recipes &amp; Models: N/A</li>
                       <li class="step-item">Select Parameters: Defaults</li>
                       <li class="step-item active">View Result</li>
                     </ul>

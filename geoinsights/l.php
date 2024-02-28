@@ -55,13 +55,13 @@
     </thead>
     <tbody>
       <tr>
-        <td>Mioscene 1</td>
+        <td>Miocene 1</td>
         <td class="text-secondary">
           52
         </td>
       </tr>
       <tr>
-        <td>Mioscene 2</td>
+        <td>Miocene 2</td>
         <td class="text-secondary">
           110
         </td>
@@ -97,7 +97,7 @@
                   -->
                   <div class="card-body">
                   <h3 class="card-title mb-2">More Options</h3>
-                    <a href="m.php" class="btn btn-info btn-sm mb-1">App Builder</a>  
+                    <a href="lm1.php" class="btn btn-info btn-sm mb-1">App Builder</a>  
                     <a href="#" class="btn btn-primary btn-sm mb-1">Advanced Options</a>
                     <a href="h1.php" class="btn btn-primary btn-sm mb-1">View History</a>
                     <a href="#" class="btn btn-warning btn-sm mb-1">Change Application</a>
