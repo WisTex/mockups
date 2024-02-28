@@ -142,6 +142,11 @@
               width: 98%;
             }
 
+            .dragover-item-child {
+              opacity: .80; 
+              background: linear-gradient(to right, #4e658a, #4e658a 4rem, #f2f6fa 1rem, #f2f6fa 100%);
+            }
+
             .drop-item .remove, .drop-item-child .remove {
               position: absolute;
               top: 30px;
@@ -273,12 +278,12 @@
                       }
                       $(clonedDropItem).css('display', 'block');
                       $(clonedDropItem).find('div').html(summaryTxt.replace('</svg>', '</svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-right-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6c0 -.852 .986 -1.297 1.623 -.783l.084 .076l6 6a1 1 0 0 1 .083 1.32l-.083 .094l-6 6l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002l-.059 -.002l-.058 -.005l-.06 -.009l-.052 -.01l-.108 -.032l-.067 -.027l-.132 -.07l-.09 -.065l-.081 -.073l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057l-.002 -12.059z" stroke-width="0" fill="currentColor" /></svg>'));
-                      $(clonedDropItem).on('click', deleteDropItem);
+                      $(clonedDropItem).find('.remove').on('click', deleteDropItem);
                       dropzone.append(clonedDropItem);
                     };
                     const deleteDropItem = function() {
-                      let appBuilder = $(this).parent(); 
-                      $(this).detach(); 
+                      let appBuilder = $(this).parent().parent(); 
+                      $(this).parent().detach(); 
                       if (appBuilder.html() == "") {
                         appBuilder.html(appBuilderPlaceholderTxt);
                       }
@@ -289,21 +294,17 @@
                       appendTo: 'body',
                       helper: 'clone',
                       drag: function(e, ui) {
+                        //console.log($(e.target).find('a')[0].offsetWidth);
                         $('.drop-item-child').each(function(){
                           let mouseX = ui.position.left;
                           let mouseY = ui.position.top;
-                          if (mouseX >= $(this).offset().left - 20 && mouseX <= $(this).offset().left + $(this).width() + 20 && mouseY >= $(this).offset().top - 35 && mouseY <= $(this).offset().top + $(this).height() + 35) {
+                          if (mouseX >= $(this).offset().left - parseInt($(this).css('padding-left')) && mouseX <= $(this).offset().left + $(this).width() + parseInt($(this).css('padding-left')) && mouseY >= $(this).offset().top - parseInt($(this).css('padding-top')) && mouseY <= $(this).offset().top + $(this).height() + parseInt($(this).css('padding-top'))) {
                             //console.log('The coordinates are within the element');
-                            $('.drop-item-child').css({
-                                'opacity': '.80', 
-                                'background': 'linear-gradient(to right, #4e658a, #4e658a 4rem, #e9eef5 1rem, #e9eef5 100%'
-                            });
+                            $('.drop-item-child').addClass('dragover-item-child');
+                            return false;
                           }
                           else {
-                            $('.drop-item-child').css({
-                              'opacity': '1',
-                              'background': 'linear-gradient(to right, #3d5a80, #3d5a80 4rem, #f5f9ff 1rem, #f5f9ff 100%)'
-                            });
+                            $('.drop-item-child').removeClass('dragover-item-child');
                           }
                         });
                       }
@@ -319,12 +320,13 @@
                           $(this).html(($(this).html()).replace(phPattern, ""));
                         }
                         let dragItemTxt = ui.draggable.text().trim();
-                        //console.log(ui.draggable.find('a').html());
                         if (dragItemTxt == recipes[2]) {
                           $('.drop-item-child').each(function(){
                             $(this).find('div').html("<b>" + $(this).find('div').html() + " (" + dragItemTxt + ")</b>");
-                            $('.drop-item-child').css('opacity', '1');
-                            $('.drop-item-child').css('background', 'linear-gradient(to right, #3d5a80, #3d5a80 4rem, #e8f1ff 1rem, #e8f1ff 100%)');
+                            $('.drop-item-child').css({
+                              'opacity': '1',
+                              'background': 'linear-gradient(to right, #3d5a80, #3d5a80 4rem, #e8f1ff 1rem, #e8f1ff 100%)'
+                            });
                           });
                         }
                         else {
