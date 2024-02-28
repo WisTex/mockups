@@ -79,7 +79,7 @@
             
               <div class="card-body" style="height: 5rem">
               <div class="card-status-top bg-info"></div>
-                <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle pull-right">Data</span></h3> 
+                <h2 class="!card-title mb-2">Stacked Seismic Volume <span class="card-subtitle pull-right"></span></h2> 
                 <p>Geophysical Insights</p>
    
               </div>
@@ -94,7 +94,7 @@
           <div class="card">
               <div class="card-body" style="height: 6rem">
               <div class="card-status-top bg-info"></div>
-                <h3 class="card-title mb-2">Multiple Azimuth Gathers <span class="card-subtitle pull-right">Data</span></h3> 
+                <h2 class="!card-title mb-2">Multiple Azimuth Gathers <span class="card-subtitle pull-right"></span></h2> 
                 <p>Geophysical Insights</p>
 
             
