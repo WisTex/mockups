@@ -98,8 +98,8 @@
         <label class="form-label required">AI Prompt</label>
         <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
       </div>
-      <a href="p.php" class="btn btn-info btn-sm mb-1">Compute</a>
-      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
+      <a href="q.php" class="btn btn-info btn-sm mb-1">Compute</a>
+      <a href="p.php" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
     </fieldset>                  

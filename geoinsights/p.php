@@ -89,7 +89,7 @@
         <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6">I want to see the existing wells with pay in the Middle Miocene within the area outlined.</textarea>
       </div>
       <a href="q.php" class="btn btn-primary btn-sm mb-1">Compute</a>
-      <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;
+      <a href="q.php" class="btn !btn-light btn-sm mb-1">&nbsp;
         <i class="ti ti-microphone"></i>&nbsp;
       </a>
     </fieldset>  

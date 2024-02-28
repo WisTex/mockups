@@ -77,33 +77,33 @@
           <div class="col-4">
             <div class="card">
             
-              <div class="card-body" style="height: 10rem">
+              <div class="card-body" style="height: 5rem">
               <div class="card-status-top bg-info"></div>
                 <h3 class="card-title mb-2">Stacked Seismic Volume <span class="card-subtitle pull-right">Data</span></h3> 
                 <p>Geophysical Insights</p>
-                
-                <p>
+   
+              </div>
+              <div class="card-footer bg-info-lt">
                   <a href="d1.php" class="btn btn-primary btn-sm">Select</a>
                   <a href="d1.php" class="btn btn-primary btn-sm">Seismic Viewer</a>
-                  <a href="m.php" class="btn btn-primary btn-sm">App Builder</a>
-                </p>
-            
-              </div>
+                  <a href="lm1.php" class="btn btn-primary btn-sm">App Builder</a>
+              </div>                       
             </div>
           </div>
           <div class="col-4">
           <div class="card">
-              <div class="card-body" style="height: 10rem">
+              <div class="card-body" style="height: 6rem">
               <div class="card-status-top bg-info"></div>
                 <h3 class="card-title mb-2">Multiple Azimuth Gathers <span class="card-subtitle pull-right">Data</span></h3> 
                 <p>Geophysical Insights</p>
-                <p>
-                  <a href="d1.php" class="btn btn-primary btn-sm">Select</a>
-                  <a href="d1.php" class="btn btn-primary btn-sm">Seismic Viewer</a>
-                  <a href="m.php" class="btn btn-primary btn-sm">App Builder</a>
-                </p>
+
             
               </div>
+              <div class="card-footer bg-info-lt">
+                  <a href="d1.php" class="btn btn-primary btn-sm">Select</a>
+                  <a href="d1.php" class="btn btn-primary btn-sm">Seismic Viewer</a>
+                  <a href="lm1.php" class="btn btn-primary btn-sm">App Builder</a>
+              </div>                               
             </div>
           </div>
 <!--
