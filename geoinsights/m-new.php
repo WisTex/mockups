@@ -296,7 +296,7 @@
                             //console.log('The coordinates are within the element');
                             $('.drop-item-child').css({
                                 'opacity': '.80', 
-                                'background': 'linear-gradient(to right, #4e658a, #4e658a 4rem, #e9eef5 1rem, #e9eef5 100%'
+                                'background': 'linear-gradient(to right, #4e658a, #4e658a 4rem, #f2f6fa 1rem, #f2f6fa 100%'
                             });
                           }
                           else {
