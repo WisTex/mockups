@@ -74,7 +74,9 @@
                     <a href="lm2.php" class="btn btn-warning btn-sm mb-1">Start Building</a>  
                     <a href="lm2.php" class="btn btn-primary btn-sm mb-1">Build ThoughtFlow</a>  
                     <a href="m.php" class="btn btn-primary btn-sm mb-1">Build Application</a>
-                    <!-- <a href="m.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a> -->
+                    <!--
+                    <a href="m.php" class="btn btn-primary btn-sm mb-1 pull-right">Settings</a>
+    -->
                   </div>   
 
                 </div>
@@ -133,7 +135,7 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="4" style="font-size: 20px;"></textarea>
       </div>
       <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
       <a href="#" class="btn !btn-light btn-sm mb-1">&nbsp;

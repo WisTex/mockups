@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="7;url=d3.php" />
+<meta http-equiv="refresh" content="5;url=d3.php" />
 <?php include 'include/header.php'; ?>
         <!-- Page body -->
         <div class="page-body">

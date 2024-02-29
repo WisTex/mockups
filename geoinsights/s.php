@@ -76,7 +76,7 @@
                     Current Selection: &ge; 50 MBEQ
                   </div>
                   <div class="card-footer">
-                    Current Prompt: Select 3 top producing well cross sections.
+                    Current Prompt: Select 3 top producing wells in cross section.
                   </div>       
                   <!--
                   <div class="card-footer">
@@ -96,7 +96,7 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="4" style="font-size: 20px;"></textarea>
       </div>
       <a href="t.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="s1.php" class="btn !btn-light btn-sm mb-1">&nbsp;

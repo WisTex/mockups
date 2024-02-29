@@ -96,7 +96,7 @@
     <fieldset class="form-fieldset">  
       <div class="mb-3">
         <label class="form-label required">AI Prompt</label>
-        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="6"></textarea>
+        <textarea class="form-control" name="example-textarea" placeholder="Please type or speak your command." rows="4" style="font-size: 20px;"></textarea>
       </div>
       <a href="q.php" class="btn btn-info btn-sm mb-1">Compute</a>
       <a href="p.php" class="btn !btn-light btn-sm mb-1">&nbsp;
@@ -107,11 +107,7 @@
     
 
     <div class="card mb-3">
-                  <!-- 
-                  <div class="card-header">
-                    <h3 class="card-title">View Dataset <span class="card-subtitle">Application</span></h3>
-                  </div>
-                  -->
+
                   <div class="card-body">
                     <h3 class="card-title mb-2">Select Data Type</h3>
                     
@@ -130,7 +126,7 @@
 
 
                 </div>
-
+<!--
     <fieldset class="form-fieldset">
   
   <div class="mb-3">
@@ -139,7 +135,7 @@
   </div>
   <a href="#" class="btn btn-primary btn-sm mb-1">Compute</a>
 </fieldset>                        
-
+    -->
                 
 
               </div>
