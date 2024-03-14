@@ -3,6 +3,7 @@
         <title>Stellarsolve Energy</title>
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch.css">
         <link rel="stylesheet" href="./view/theme/neuhub-tab/css/codestitch-sections.css">
+        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
     <body>
@@ -15,7 +16,7 @@
             <div class="cs-top-bar">
                 <div class="cs-top-container">
                     <!--Nav Logo-->
-                    <a href="" class="cs-logo" aria-label="back to home">
+                    <a href="/" class="cs-logo" aria-label="back to home">
                         <!-- <img src="./custom/image/stellarsolve-logo-60.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async"> -->
                         <!-- <img src="./custom/image/stellarsolve-logo-2.png" alt="logo" width="197" height="43" aria-hidden="true" decoding="async"> -->
                         <img src="./custom/image/stellarsolve-long.png" alt="logo" width="300" height="50" aria-hidden="true" decoding="async">
@@ -61,6 +62,7 @@
                                 <span class="cs-line cs-line1" aria-hidden="true"></span>
                                 <span class="cs-line cs-line2" aria-hidden="true"></span>
                                 <span class="cs-line cs-line3" aria-hidden="true"></span>
+                                
                             </div>
                         </button>
                         <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
@@ -167,10 +169,15 @@
 
     <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11-m.jpeg">
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg">
-        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg" alt="meeting" width="2250" height="1500" aria-hidden="true">
-        <!-- https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7.jpg -->
+        <source media="(max-width: 600px)" srcset="./custom/image/puzzle-pieces.jpg">
+        <source media="(min-width: 601px)" srcset="./custom/image/puzzle-pieces.jpg">
+        <img decoding="async" src="./custom/image/puzzle-pieces.jpg" alt="meeting" width="2250" height="1500" aria-hidden="true">
+        <!-- 
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting7.jpg
+            /custom/image/puzzle-pieces.jpg
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11.jpg
+            https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting11-m.jpeg
+        -->
     </picture>
 </section>
                                         
@@ -273,6 +280,8 @@
     </div>
 </section>
                                 
+
+<script src="./view/theme/neuhub-tab/js/codestitch.js"></script>
 
     </body>
 </html>
