@@ -146,15 +146,21 @@
 
                 <h4 class="text-success">Strategic Advisory | Technical Assurance | Investment Optimization</h4>
 
-<p>At Stellar Geoconsult LLC, we believe that successful hydrocarbon exploration and production begins beneath the surface—with science, insight, and precision. As energy systems evolve globally, hydrocarbons remain vital to powering economies, funding transitions, and supporting industrial resilience, particularly in resource-rich regions like Sub-Saharan Africa, Latin America, and the Middle East.
+<p>At <b>Stellar Geoconsult LLC</b>, we believe that successful hydrocarbon exploration and production begins beneath the surface—with science, insight, and precision. 
+As energy systems evolve globally, hydrocarbons remain vital to powering economies, funding transitions, and supporting industrial resilience, 
+particularly in resource-rich regions like <b>Sub-Saharan Africa</b>, <b>Latin America</b>, and the <b>Middle East</b>.
 
-<p>From basin-wide assessments to asset-level investment due diligence, we provide the full suite of technical and commercial consulting services to national oil companies, private-sector E&P firms, financial institutions, and policy makers. Our objective: to de-risk decisions, optimize asset value, and ensure long-term profitability across the oil and gas value chain.
+<p>From <b>basin-wide assessments</b> to <b>asset-level investment due diligence</b>, we provide the full suite of technical and commercial consulting services to national oil companies, 
+    private-sector E&P firms, financial institutions, and policy makers. Our objective: <b>to de-risk decisions, optimize asset value, and ensure long-term profitability 
+    across the oil and gas value chain.</b>
 
 <h3>What Sets Us Apart</h3>
 
-<p>Headquartered in Houston, Texas, and rooted in both scientific rigor and commercial pragmatism, Stellar Geoconsult LLC brings deep, integrated experience in geoscience, reservoir engineering, economics, and petroleum systems analysis. We speak the languages of both geology and capital markets—ensuring that technical findings translate into boardroom action and investor confidence.
+<p>Headquartered in <b>Houston, Texas</b>, and rooted in both <b>scientific rigor</b> and <b>commercial pragmatism</b>, Stellar Geoconsult LLC brings deep, 
+integrated experience in <b>geoscience, reservoir engineering, economics, and petroleum systems analysis</b>. 
+We speak the languages of both geology and capital markets—ensuring that technical findings translate into boardroom action and investor confidence.
 
-<p>Our team is composed of senior geoscientists, reservoir engineers, data room specialists, and former industry executives who have worked across some of the most prolific and challenging basins worldwide. Whether supporting a frontier licensing round or validating reserves ahead of an acquisition, we provide an objective, technically sound, and context-aware assessment.
+<p>Our team is composed of <b>senior geoscientists, reservoir engineers, data room specialists, and former industry executives</b> who have worked across some of the most prolific and challenging basins worldwide. Whether supporting a frontier licensing round or validating reserves ahead of an acquisition, we provide an objective, technically sound, and context-aware assessment.
 
 <h3>Our Hydrocarbon Solutions Include:</h3>
 
@@ -173,7 +179,7 @@
 
 <h3>Regional Focus with Global Standards</h3>
 
-<p>While we serve clients worldwide, we have a specialized focus on Sub-Saharan Africa, offering strategic and technical insight into some of the continent’s most promising hydrocarbon basins, including:
+<p>While we serve clients worldwide, we have a <b>specialized focus on Sub-Saharan Africa</b>, offering strategic and technical insight into some of the continent’s most promising hydrocarbon basins, including:
 
 <ul>
 <li>Niger Delta
@@ -189,16 +195,16 @@
 <h3>Who We Support</h3>
 
 <ul>
-<li>National Oil Companies (NOCs) seeking to validate reserves and attract investment
-<li>Independent E&Ps planning farm-in/out, seismic investment, or drilling programs
-<li>Institutional investors and private equity evaluating energy assets for acquisition
-<li>Regulatory authorities developing technical capacity or overseeing bid rounds
-<li>Joint Venture partners resolving equity or volumetric disputes
+<li><b>National Oil Companies (NOCs)</b> seeking to validate reserves and attract investment
+<li><b>Independent E&Ps</b> planning farm-in/out, seismic investment, or drilling programs
+<li><b>Institutional investors and private equity</b> evaluating energy assets for acquisition
+<li><b>Regulatory authorities</b> developing technical capacity or overseeing bid rounds
+<li><b>Joint Venture partners</b> resolving equity or volumetric disputes
 </ul>
 
 <h3>Drive Hydrocarbon Success with Confidence</h3>
 
-<p>In a world of rising complexity and shifting energy dynamics, Stellar Geoconsult LLC empowers our clients to make informed, confident, and profitable decisions throughout the hydrocarbon lifecycle. Whether you’re chasing new discoveries or enhancing mature fields, we deliver the clarity and strategic edge you need to lead in exploration, development, and production.
+<p>In a world of rising complexity and shifting energy dynamics, <b>Stellar Geoconsult LLC</b> empowers our clients to make informed, confident, and profitable decisions throughout the hydrocarbon lifecycle. Whether you’re chasing new discoveries or enhancing mature fields, we deliver the clarity and strategic edge you need to lead in exploration, development, and production.
 
 
 
