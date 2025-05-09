@@ -104,6 +104,9 @@
                                         Contact Us
                                     </a>
                                 </li>
+
+
+
                             </ul>
                         </div>
                     </nav>
@@ -144,31 +147,35 @@
 
                 <h3 class="text-black">Empowering Global Energy Transitions from Houston, Texas</h3>
 
-<p>At Stellar Geoconsult LLC, we stand at the intersection of experience, innovation, and energy transformation. Headquartered in Houston, Texas—the global capital of energy—our firm is uniquely positioned to deliver tailored, world-class consulting and advisory services across the full spectrum of the energy industry.
+<p>At <b>Stellar Geoconsult LLC</b>, we stand at the intersection of experience, innovation, and energy transformation. Headquartered in <b>Houston, Texas</b> — the global capital of energy—our firm is uniquely positioned to deliver tailored, world-class consulting and advisory services across the full spectrum of the energy industry.
 
-<p>From traditional hydrocarbons to renewable technologies, from subsurface geoscience to above-ground infrastructure optimization, we equip our clients with deep technical insights, commercial intelligence, and forward-thinking strategies that accelerate performance and value generation. We are not just advisors—we are long-term partners in shaping the energy systems of tomorrow.
+<p>From <b>traditional hydrocarbons</b> to <b>renewable technologies</b>, from <b>subsurface geoscience</b> to <b>above-ground infrastructure optimization</b>, we equip our clients with deep technical insights, commercial intelligence, and forward-thinking strategies that accelerate performance and value generation. We are not just advisors—we are long-term partners in shaping the energy systems of tomorrow.
 
 <h3>Who We Are</h3>
 
-<p>Stellar Geoconsult LLC is a multidisciplinary team of experts composed of seasoned geoscientists, petroleum engineers, reservoir modelers, renewable energy strategists, economists, and policy analysts. Our team’s collective experience spans continents, with a strong track record of success in Africa, North America, the Middle East, and Latin America. We pride ourselves on our ability to integrate regional knowledge with global best practices—ensuring our recommendations are both innovative and implementable.
+<p>Stellar Geoconsult LLC is a multidisciplinary team of experts composed of seasoned geoscientists, petroleum engineers, reservoir modelers, renewable energy strategists, 
+    economists, and policy analysts. Our team’s collective experience spans continents, with a strong track record of success 
+    in <b>Africa</b>, <b>North America</b>, the <b>Middle East</b>, and <b>Latin America</b>. 
+    We pride ourselves on our ability to integrate regional knowledge with global best practices—ensuring our recommendations are both innovative and implementable.
 
-<p>Whether advising governments on national energy strategies or helping private companies maximize returns on complex assets, we provide precision analysis, actionable roadmaps, and long-term value creation at every step.
+<p>Whether advising governments on national energy strategies or helping private companies maximize returns on complex assets, 
+    we provide <b>precision analysis, actionable roadmaps, and long-term value creation</b> at every step.
 
 <h3>What We Do</h3>
 
 <p>Our core services span:
 
 <ul>
-<li>Energy Strategy Development
-<br>We design resilient and future-ready energy strategies, aligning national goals with investor expectations and evolving climate standards.
-<li>Subsurface Intelligence & Asset Evaluation
-<br>With decades of hands-on field and basin experience, we provide clients with clear visibility into exploration and production assets—through data room assessments, volumetric estimations, and integrated geological modeling.
-<li>Renewable Energy Project Advisory
-<br>From geothermal mapping to solar microgrid planning and hybrid system design, we de-risk and accelerate the adoption of clean energy in emerging markets.
-<li>Operational Efficiency & Decarbonization
-<br>We help optimize performance while reducing emissions, improving cost structures, and enabling energy transition pathways across industries.
-<li>Off-Grid & Rural Power Systems
-<br>We specialize in providing energy access and industrial power solutions to underserved markets, particularly in Sub-Saharan Africa, through custom off-grid systems designed for agriculture, manufacturing, and digital infrastructure.
+<li><b class="text-success">Energy Strategy Development</b>
+<div class="mt-3">We design resilient and future-ready energy strategies, aligning national goals with investor expectations and evolving climate standards.</div>
+<li><b class="text-success">Subsurface Intelligence & Asset Evaluation</b>
+<div class="mt-3">With decades of hands-on field and basin experience, we provide clients with clear visibility into exploration and production assets—through data room assessments, volumetric estimations, and integrated geological modeling.</div>
+<li><b class="text-success">Renewable Energy Project Advisory</b>
+<div class="mt-3">From geothermal mapping to solar microgrid planning and hybrid system design, we de-risk and accelerate the adoption of clean energy in emerging markets.</div>
+<li><b class="text-success">Operational Efficiency & Decarbonization</b>
+<div class="mt-3">We help optimize performance while reducing emissions, improving cost structures, and enabling energy transition pathways across industries.</div>
+<li><b class="text-success">Off-Grid & Rural Power Systems</b>
+<div class="mt-3">We specialize in providing energy access and industrial power solutions to underserved markets, particularly in Sub-Saharan Africa, through custom off-grid systems designed for agriculture, manufacturing, and digital infrastructure.</div>
 </ul>
 
 <h3>Why Stellar Geoconsult LLC</h3>
@@ -180,11 +187,11 @@
 <p>Our value lies in:
 
 <ul>
-<li>Unbiased, independent, and rigorous analysis
-<li>Cross-disciplinary teams with hands-on experience
-<li>Custom-built solutions for both legacy and future energy systems
-<li>A deep understanding of Sub-Saharan Africa’s energy landscape
-<li>Commitment to long-term sustainability, affordability, and reliability
+<li><b>Unbiased, independent, and rigorous analysis</b>
+<li><b>Cross-disciplinary teams with hands-on experience</b>
+<li><b>Custom-built solutions for both legacy and future energy systems</b>
+<li><b>A deep understanding of Sub-Saharan Africa’s energy landscape</b>
+<li><b>Commitment to long-term sustainability, affordability, and reliability</b>
 </ul>
 
 <h3>Who We Serve</h3>
@@ -192,14 +199,14 @@
 <p>We work with a diverse portfolio of clients including:
 
 <ul>
-<li>National Oil Companies (NOCs) and Ministries of Energy
-<li>Private-sector E&P companies
-<li>Renewable energy developers and investors
-<li>Agricultural and industrial enterprises
-<li>Multilateral institutions and donor-funded programs
+<li><b>National Oil Companies (NOCs) and Ministries of Energy</b>
+<li><b>Private-sector E&P companies</b>
+<li><b>Renewable energy developers and investors</b>
+<li><b>Agricultural and industrial enterprises</b>
+<li><b>Multilateral institutions and donor-funded programs</b>
 </ul>
 
-<p>No matter the scale of the project—from village electrification to basin-wide petroleum systems—we approach every engagement with precision, partnership, and purpose.
+<p>No matter the scale of the project—from village electrification to basin-wide petroleum systems — we approach every engagement with precision, partnership, and purpose.
 
 <h3>Explore Our Expertise. Expand Your Potential. Energize Your Future.</h3>
 
@@ -245,9 +252,6 @@
                     <a href="./" class="cs-link cs-active fw-bold">Home</a>
                 </li>
                 <li class="cs-li">
-                    <a href="./solutions.php" class="cs-link">Solutions</a>
-                </li>
-                <li class="cs-li">
                     <a href="./industries.php" class="cs-link">Industries</a>
                 </li>                
                 <li class="cs-li">
@@ -255,7 +259,10 @@
                 </li>
                 <li class="cs-li">
                     <a href="./renewable.php" class="cs-link">Renewable Energy</a>
-                </li>                                
+                </li>
+                <li class="cs-li">
+                    <a href="./solutions.php" class="cs-link">Hydrocarbons</a>
+                </li>                                                
                 <li class="cs-li">
                     <a href="./team.php" class="cs-link">Our Team</a>
                 </li>
